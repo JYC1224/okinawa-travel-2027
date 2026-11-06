@@ -1,0 +1,170 @@
+{
+  "images": [
+    {
+      "id": "senaga-landing-user",
+      "title": "瀨長島・飛機降落",
+      "source_type": "user-provided",
+      "source": "assets/images/senaga-landing-user-1000.webp",
+      "original_filename": "codex-clipboard-a95cbe7a-c0cb-412c-b965-b91cd820f896.png",
+      "author": "使用者提供",
+      "original_signature": "suni.tw",
+      "license": "User supplied for use in this private itinerary; no public license asserted",
+      "license_url": null,
+      "alt_zh": "從瀨長島望向那霸機場，一架粉紅色客機放下起落架飛向海邊跑道",
+      "files": [
+        {
+          "path": "assets/images/senaga-landing-user-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "path": "assets/images/senaga-landing-user-1000.webp",
+          "width": 1000,
+          "height": 750
+        }
+      ],
+      "changes": "Resized and encoded to WebP from the user attachment. The display crop retains the airplane and original signature."
+    },
+    {
+      "id": "american-night-user",
+      "title": "北谷美國村・海濱街區夜景",
+      "source_type": "user-provided",
+      "source": "assets/images/american-night-user-1024.webp",
+      "original_filename": "codex-clipboard-35b168c7-38fd-4168-a41c-736c66fdfc1f.png",
+      "author": "使用者提供",
+      "license": "User supplied for use in this private itinerary; no public license asserted",
+      "license_url": null,
+      "alt_zh": "北谷美國村夜景，棕櫚樹與彩色店屋亮起暖色燈光",
+      "files": [
+        {
+          "path": "assets/images/american-night-user-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "path": "assets/images/american-night-user-1024.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "changes": "Resized and encoded to WebP from the user attachment. Cropped for display in the existing seaside highlights collage."
+    },
+    {
+      "id": "american-village-user",
+      "title": "北谷美國村・彩色街景",
+      "source_type": "user-provided",
+      "source": "assets/images/american-village-user-1000.webp",
+      "original_filename": "codex-clipboard-a5b222bc-b766-4091-8009-f6fb69a555ef.png",
+      "author": "使用者提供",
+      "license": "User supplied for use in this private itinerary; no public license asserted",
+      "license_url": null,
+      "alt_zh": "北谷美國村晴天的街景，棕櫚樹環繞橘紅與金黃色的店屋",
+      "files": [
+        {
+          "path": "assets/images/american-village-user-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "path": "assets/images/american-village-user-1000.webp",
+          "width": 1000,
+          "height": 750
+        }
+      ],
+      "changes": "Resized and encoded to WebP from the user attachment. Cropped for display in the existing Day 4 gallery."
+    },
+    {
+      "id": "sakaemachi-lanterns-user",
+      "title": "榮町市場的燈籠巷景",
+      "source_type": "user-provided",
+      "source": "assets/images/sakaemachi-lanterns-user.png",
+      "author": "使用者提供",
+      "license": "User supplied for use in this private itinerary; no public license asserted",
+      "license_url": null,
+      "alt_zh": "榮町市場拱形棚頂下的巷弄，店門前掛著暖黃色與彩色燈籠",
+      "files": [
+        {
+          "path": "assets/images/sakaemachi-lanterns-user.png",
+          "width": 2048,
+          "height": 1365
+        }
+      ],
+      "changes": "Original user attachment copied without pixel changes."
+    },
+    {
+      "id": "almont-lobby-user",
+      "title": "飯店大廳",
+      "source_type": "user-provided",
+      "source": "assets/images/almont-lobby-user-1440.webp",
+      "original_filename": "codex-clipboard-f0db6aef-faab-4c2e-b118-24baff935fac.png",
+      "reference_url": "https://www.almont.jp/naha/facilities.html",
+      "author": "使用者提供",
+      "license": "User supplied for use in this private itinerary; no public license asserted",
+      "license_url": null,
+      "alt_zh": "那霸縣廳前阿蒙特飯店的大廳，暖色吊燈照亮座椅、植栽與接待櫃檯",
+      "files": [
+        {
+          "path": "assets/images/almont-lobby-user-720.webp",
+          "width": 720,
+          "height": 400
+        },
+        {
+          "path": "assets/images/almont-lobby-user-1440.webp",
+          "width": 1440,
+          "height": 800
+        }
+      ],
+      "changes": "Resized and encoded to WebP from the user attachment. Original framing retained."
+    },
+    {
+      "id": "almont-room-user",
+      "title": "客房示意",
+      "source_type": "user-provided",
+      "source": "assets/images/almont-room-user-1440.webp",
+      "original_filename": "codex-clipboard-f8e04bbd-e98e-4715-a954-18a9562c561a.png",
+      "reference_url": "https://www.almont.jp/naha/room.html",
+      "author": "使用者提供",
+      "license": "User supplied for use in this private itinerary; no public license asserted",
+      "license_url": null,
+      "alt_zh": "那霸縣廳前阿蒙特飯店客房內的床鋪、木質床頭板與深藍窗簾",
+      "files": [
+        {
+          "path": "assets/images/almont-room-user-720.webp",
+          "width": 720,
+          "height": 280
+        },
+        {
+          "path": "assets/images/almont-room-user-1440.webp",
+          "width": 1440,
+          "height": 560
+        }
+      ],
+      "changes": "Resized and encoded to WebP from the user attachment. Original framing retained."
+    },
+    {
+      "id": "almont-bath-user",
+      "title": "12 樓住客大浴場",
+      "source_type": "user-provided",
+      "source": "assets/images/almont-bath-user-1440.webp",
+      "original_filename": "codex-clipboard-c5ecc6a1-14f7-4ebc-ae02-77f4b5f84fb8.png",
+      "reference_url": "https://www.almont.jp/naha/spa.html",
+      "author": "使用者提供",
+      "license": "User supplied for use in this private itinerary; no public license asserted",
+      "license_url": null,
+      "alt_zh": "那霸縣廳前阿蒙特飯店大浴場，藍色浴池旁是窗景與風獅爺馬賽克壁畫",
+      "files": [
+        {
+          "path": "assets/images/almont-bath-user-720.webp",
+          "width": 720,
+          "height": 280
+        },
+        {
+          "path": "assets/images/almont-bath-user-1440.webp",
+          "width": 1440,
+          "height": 560
+        }
+      ],
+      "changes": "Resized and encoded to WebP from the user attachment. Original framing retained."
+    }
+  ]
+}

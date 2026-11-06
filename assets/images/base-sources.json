@@ -1,0 +1,147 @@
+[
+  {
+    "id": "kouri",
+    "title": "Kouri Bridge (15130568259).jpg",
+    "author": "Takuya ASADA",
+    "source": "https://commons.wikimedia.org/wiki/File:Kouri_Bridge_(15130568259).jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Kouri_Bridge_%2815130568259%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "Resizing, WebP encoding and CSS display cropping. Kouri hero variants also use a tighter raster crop. No AI generation.",
+    "width": 4704,
+    "height": 3136,
+    "variants": [
+      {
+        "file": "kouri-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "file": "kouri-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "file": "kouri-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "manzamo",
+    "title": "Onna Okinawa Japan Cape-Manzamo-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "source": "https://commons.wikimedia.org/wiki/File:Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Onna_Okinawa_Japan_Cape-Manzamo-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Resizing, WebP encoding and CSS display cropping. Kouri hero variants also use a tighter raster crop. No AI generation.",
+    "width": 5387,
+    "height": 3591,
+    "variants": [
+      {
+        "file": "manzamo-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "file": "manzamo-1280.webp",
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "file": "manzamo-1920.webp",
+        "width": 1920,
+        "height": 1280
+      }
+    ]
+  },
+  {
+    "id": "churaumi",
+    "title": "2009-05-05 The Main Tank Kuroshio Sea Tank.jpg",
+    "author": "SteFou!",
+    "source": "https://commons.wikimedia.org/wiki/File:2009-05-05_The_Main_Tank_Kuroshio_Sea_Tank.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/2009-05-05_The_Main_Tank_Kuroshio_Sea_Tank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "Resizing, WebP encoding and CSS display cropping. Kouri hero variants also use a tighter raster crop. No AI generation.",
+    "width": 2471,
+    "height": 1389,
+    "variants": [
+      {
+        "file": "churaumi-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "file": "churaumi-1280.webp",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "churaumi-1920.webp",
+        "width": 1920,
+        "height": 1079
+      }
+    ]
+  },
+  {
+    "id": "american",
+    "title": "Mihama Town Resort American Village 20160720.jpg",
+    "author": "Suikotei",
+    "source": "https://commons.wikimedia.org/wiki/File:Mihama_Town_Resort_American_Village_20160720.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mihama_Town_Resort_American_Village_20160720.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resizing, WebP encoding and CSS display cropping. Kouri hero variants also use a tighter raster crop. No AI generation.",
+    "width": 2919,
+    "height": 2088,
+    "variants": [
+      {
+        "file": "american-640.webp",
+        "width": 640,
+        "height": 458
+      },
+      {
+        "file": "american-1280.webp",
+        "width": 1280,
+        "height": 916
+      },
+      {
+        "file": "american-1920.webp",
+        "width": 1920,
+        "height": 1373
+      }
+    ]
+  },
+  {
+    "id": "chatan-seafront",
+    "title": "Coast from breakwater of Chatan Sunset Beach (north).JPG",
+    "author": "そらみみ",
+    "source": "https://commons.wikimedia.org/wiki/File:Coast_from_breakwater_of_Chatan_Sunset_Beach_(north).JPG",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Coast_from_breakwater_of_Chatan_Sunset_Beach_%28north%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resizing, WebP encoding and CSS display cropping. Kouri hero variants also use a tighter raster crop. No AI generation.",
+    "width": 3264,
+    "height": 2448,
+    "variants": [
+      {
+        "file": "chatan-seafront-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "file": "chatan-seafront-1280.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "file": "chatan-seafront-1920.webp",
+        "width": 1920,
+        "height": 1440
+      }
+    ]
+  }
+]

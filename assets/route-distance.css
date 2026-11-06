@@ -1,0 +1,122 @@
+.route-distance {
+  margin-top: 42px;
+}
+
+.route-distance .section-title {
+  font-size: 23px;
+  letter-spacing: 2px;
+}
+
+.route-distance-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(24px, 5vw, 64px);
+  max-width: 960px;
+  margin: 24px auto 0;
+}
+
+.route-distance-map {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.route-map-road, .route-map-leaders {
+  fill: none;
+  stroke: #aa8d68;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.route-map-road { stroke-width: 1.05; }
+.route-map-leaders { stroke-width: .45; }
+.route-map-stops { fill: #dec498; stroke: #3b3026; stroke-width: .45; }
+.route-map-stops .route-map-terminal, .route-map-stops .route-map-passing {
+  fill: #282420;
+  stroke: #dec498;
+  stroke-width: .75;
+}
+
+.route-map-labels { fill: #493d32; font-size: 6.4px; font-weight: 500; }
+.route-map-label-on-land { fill: #fff5e6; }
+.route-map-inset-label { fill: var(--muted); font-size: 5.6px; }
+
+.route-distance-north {
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+
+.route-distance-north .route-map-road { stroke-width: 2.4; }
+.route-distance-north .route-map-leaders { stroke-width: 1; }
+.route-distance-north .route-map-stops { stroke-width: 1; }
+.route-distance-north .route-map-terminal { stroke-width: 1.7; }
+.route-distance-north .route-map-labels { font-size: 16px; }
+
+.route-distance-day {
+  margin-bottom: 8px;
+  color: var(--deep-gold);
+  font-size: clamp(18px, 2.4vw, 20px);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.route-distance-legs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: var(--body);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.route-distance-legs li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  padding: 4px 0;
+}
+
+.route-distance-legs li > :last-child, .route-distance-total strong {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.route-distance-total {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid var(--line);
+  margin-top: 12px;
+  padding-top: 12px;
+  color: var(--deep-gold);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.route-distance-note, .route-distance-source {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.route-distance-source {
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+.route-distance-source a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.route-distance-north .route-distance-source a { white-space: nowrap; }
+
+@media (max-width: 767px) {
+  .route-distance { margin-top: 30px; }
+  .route-distance .section-title { font-size: 21px; }
+  .route-distance-body { grid-template-columns: 1fr; gap: 12px; margin-top: 17px; }
+  .route-distance-legs { font-size: 13px; }
+  .route-distance-total { font-size: 15px; }
+}

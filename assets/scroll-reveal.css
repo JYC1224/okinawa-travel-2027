@@ -1,0 +1,40 @@
+@media screen {
+  .scroll-reveal-pending:not(:focus-within) {
+    opacity: 0;
+  }
+
+  .scroll-reveal-enter {
+    --reveal-x: 0px;
+    --reveal-y: 30px;
+    animation: scroll-reveal 700ms ease-out;
+  }
+
+  @media (min-width: 768px) {
+    .day-heading.scroll-reveal-enter {
+      --reveal-x: -50px;
+      --reveal-y: 0px;
+    }
+
+    .daily-scenes.scroll-reveal-enter {
+      --reveal-x: min(50px, 4.5vw);
+      --reveal-y: 0px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .scroll-reveal-enter {
+      --reveal-y: 16px;
+    }
+  }
+
+  @keyframes scroll-reveal {
+    from {
+      opacity: 0;
+      transform: translate(var(--reveal-x), var(--reveal-y));
+    }
+    to {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+  }
+}

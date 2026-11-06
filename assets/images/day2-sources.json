@@ -1,0 +1,192 @@
+{
+  "retrieved_at_utc": "2026-11-03T07:36:52.592996+00:00",
+  "provider": "Wikimedia Commons; Flickr",
+  "scope": "New assets for the Day 2 southern Okinawa itinerary. Existing assets and manifests are unchanged.",
+  "reuse_note": "Credit each named author, source page, license URL and resize/WebP modification notice. CC BY-SA photo derivatives remain under the same license version. Disclose display cropping where used.",
+  "download_note": "Commons subjects use API-returned standard 1920px thumbnails; Miibaru Beach uses its photographer's public Flickr 2048px photo size. Original URLs and dimensions remain recorded. No upscaling.",
+  "images": [
+    {
+      "id": "mibaru-beach",
+      "provider": "Flickr",
+      "title": "101_0632 — Mibaru Beach",
+      "source": "https://www.flickr.com/photos/7beachbum/3974495620",
+      "source_image": "https://live.staticflickr.com/2478/3974495620_94bdc10302_o.jpg",
+      "author": "7beachbum",
+      "author_url": "https://www.flickr.com/photos/7beachbum",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "derivatives_license": "CC BY 2.0",
+      "source_credit": "7beachbum; public Flickr photo description: Mibaru Beach; place tags: nanjocity, mibarubeach.",
+      "attribution": "101_0632 (Mibaru Beach) — 7beachbum, via Flickr, CC BY 2.0. Resized and converted to WebP.",
+      "date_taken": "2009-09-25 14:26:26",
+      "location": "新原海灘（Mibaru Beach / Miibaru Beach），南城市，沖繩縣，日本",
+      "caption_zh": "南城市新原海灘的沙灘、海岸岩石與玻璃船（2009 年 9 月 25 日攝影）。",
+      "alt_zh": "南城市新原海灘的淺色沙灘與碧藍海面，岸邊有玻璃船及覆有綠色植物的大型海岸岩石",
+      "dimensions": {
+        "width": 2304,
+        "height": 1728
+      },
+      "changes": "From the photographer's publicly listed Flickr 2048px image; EXIF orientation normalized; resized with Lanczos and converted to WebP. No crop, generative changes, or upscaling.",
+      "crop_advice": "For a 16:9 crop, object-position: 50% 65% reduces the large sky area while retaining the sand, boat and recognizable coastal rock. Keep both the rock and beach visible.",
+      "currentness_note": "Historical 2009 beach photograph. The owner's public description says Mibaru Beach and tags include nanjocity/mibarubeach. It is not a record of present-day boat operations, operators, schedules, or facilities. The approximate embedded map point is not used as a precise camera-location claim.",
+      "metadata_snapshot": "research/photos-day2/metadata/mibaru-beach.json",
+      "source_download": {
+        "path": "research/photos-day2/source-downloads/mibaru-flickr-2048.jpg",
+        "url": "https://live.staticflickr.com/2478/3974495620_34adf1199c_k.jpg",
+        "kind": "Flickr public 2048px photo size",
+        "width": 2048,
+        "height": 1536,
+        "bytes": 409815,
+        "sha256": "e98e9330f7ac5ea6a81573baf87c1faa50ec8ec8d925ac1b081e8715cff6bd53"
+      },
+      "files": [
+        {
+          "path": "assets/images/mibaru-beach-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 40832,
+          "upscaled": false,
+          "sha256": "9025b2553b687479eda3e09360858f9d46c092364154cfbe9cc98614771438b8"
+        },
+        {
+          "path": "assets/images/mibaru-beach-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 122244,
+          "upscaled": false,
+          "sha256": "1356475f710cf1c29a6a89d6bd8b3efc7daab99c618efe16d751689270af0e67"
+        },
+        {
+          "path": "assets/images/mibaru-beach-1920.webp",
+          "width": 1920,
+          "height": 1440,
+          "bytes": 211206,
+          "upscaled": false,
+          "sha256": "653ac4413d97fb3ea3df6457d17d99a64128e9563856e1604e03b0c9467918a8"
+        }
+      ]
+    },
+    {
+      "id": "ou-harbor",
+      "provider": "Wikimedia Commons",
+      "title": "Ou Bridge Nanjo 202208.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ou_Bridge_Nanjo_202208.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Ou_Bridge_Nanjo_202208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Kugel~commonswiki",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Kugel~commonswiki",
+      "source_credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivatives_license": "CC BY-SA 4.0",
+      "attribution": "Ou Bridge Nanjo 202208.jpg — Kugel~commonswiki, via Wikimedia Commons, CC BY-SA 4.0. Resized and converted to WebP.",
+      "date_taken": "Taken on 7 August 2022",
+      "location": "南城市奧武島、奧武大橋與港灣，沖繩縣，日本",
+      "caption_zh": "南城市奧武島的橋頭聚落與港灣，奧武大橋連接沖繩本島（2022 年 8 月 7 日攝影）。",
+      "alt_zh": "南城市奧武島橋頭與港灣全景，藍色海面兩岸可見聚落，奧武大橋橫跨其間",
+      "dimensions": {
+        "width": 6000,
+        "height": 4000
+      },
+      "changes": "From Commons API-returned standard 1920px thumbnail; EXIF orientation normalized; resized with Lanczos and converted to WebP. No crop, generative changes, or upscaling.",
+      "crop_advice": "For a 16:9 landscape crop, object-position: 50% 48%. Keep the bridge, waterfront settlement on the left and the two shores visible.",
+      "currentness_note": "The source explicitly identifies Ou Island, Nanjo, Okinawa. This is a 2022 bridge/harbor overview rather than a close-up fishing boat scene; it is not a photograph of a different Ou Island.",
+      "metadata_snapshot": "research/photos-day2/metadata/ou-harbor.json",
+      "source_download": {
+        "path": "research/photos-day2/source-downloads/7e864068bd953458-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ou_Bridge_Nanjo_202208.jpg/1920px-Ou_Bridge_Nanjo_202208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 858971,
+        "sha256": "28ad3d0f01341608bbf32f2ae8bed3df3ee9c01de73c9caff0318b83c89bfb92"
+      },
+      "files": [
+        {
+          "path": "assets/images/ou-harbor-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 85266,
+          "upscaled": false,
+          "sha256": "33484751dbc0d38e993df0fc1eabffaa933524f10fb841568ae77fb1c90d421c"
+        },
+        {
+          "path": "assets/images/ou-harbor-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 353168,
+          "upscaled": false,
+          "sha256": "26db81f973d1df5ae1bf8cf79cc6f53718973bf45d9e09f8320f86161d8a12f2"
+        },
+        {
+          "path": "assets/images/ou-harbor-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 769730,
+          "upscaled": false,
+          "sha256": "de4fc908e9e19429c8575c1eafd48fb294557f3a608cdb441997a7550bd3f155"
+        }
+      ]
+    },
+    {
+      "id": "nirai-kanai",
+      "provider": "Wikimedia Commons",
+      "title": "Nirai Kanai Bridge 202208.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nirai_Kanai_Bridge_202208.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Nirai_Kanai_Bridge_202208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Kugel~commonswiki",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Kugel~commonswiki",
+      "source_credit": "Own work",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivatives_license": "CC BY-SA 4.0",
+      "attribution": "Nirai Kanai Bridge 202208.jpg — Kugel~commonswiki, via Wikimedia Commons, CC BY-SA 4.0. Resized and converted to WebP.",
+      "date_taken": "Taken on 7 August 2022",
+      "location": "尼萊卡奈大橋展望台所見的橋梁與海岸，南城市，沖繩縣，日本",
+      "caption_zh": "從展望台看尼萊卡奈大橋與南城市沿岸海景（2022 年 8 月 7 日攝影）。",
+      "alt_zh": "尼萊卡奈大橋沿綠色山坡彎向湛藍海岸，遠方是晴天海面與白雲",
+      "dimensions": {
+        "width": 6000,
+        "height": 4000
+      },
+      "changes": "From Commons API-returned standard 1920px thumbnail; EXIF orientation normalized; resized with Lanczos and converted to WebP. No crop, generative changes, or upscaling.",
+      "crop_advice": "Strong 16:9 coastal banner at object-position: 50% 52%. Retain both sweeping bridge decks and the sea horizon.",
+      "currentness_note": "2022 photograph taken from the bridge observatory; asset-library option only, not a claim that the itinerary schedules a viewpoint stop.",
+      "metadata_snapshot": "research/photos-day2/metadata/nirai-kanai.json",
+      "source_download": {
+        "path": "research/photos-day2/source-downloads/529b9216795795c2-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Nirai_Kanai_Bridge_202208.jpg/1920px-Nirai_Kanai_Bridge_202208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 777643,
+        "sha256": "b54f818b09bb2057ee853a5745d092036680248c70447cb2c59fa3c49ed95c0d"
+      },
+      "files": [
+        {
+          "path": "assets/images/nirai-kanai-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 67614,
+          "upscaled": false,
+          "sha256": "c30a7820055abf9ab253ef73797c3d4e8c1c857558fe92edf4197ee2cae4b176"
+        },
+        {
+          "path": "assets/images/nirai-kanai-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 282480,
+          "upscaled": false,
+          "sha256": "49d4969415904b342621c96f476cb2f425bcfe48fb57644a67aeea3e2ef0ed8d"
+        },
+        {
+          "path": "assets/images/nirai-kanai-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 659864,
+          "upscaled": false,
+          "sha256": "fe4e0fa5e41ea5f810b6263f360eb5d6f6afea61b5e6f53f2bf3cd73308befb0"
+        }
+      ]
+    }
+  ]
+}

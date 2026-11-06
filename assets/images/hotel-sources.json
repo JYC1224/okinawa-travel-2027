@@ -1,0 +1,55 @@
+{
+  "images": [
+    {
+      "id": "almont-exterior",
+      "title": "Almont Hotel Naha-Kenchomae.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Almont_Hotel_Naha-Kenchomae.JPG",
+      "author": "Abasaa",
+      "license": "Public domain",
+      "license_url": "",
+      "date_taken": "2017-09-30",
+      "alt_zh": "那霸縣廳前阿蒙特飯店的白色外牆、紅褐色窗框與上方飯店名稱",
+      "dimensions": {
+        "width": 1280,
+        "height": 1707
+      },
+      "files": [
+        {
+          "path": "assets/images/almont-exterior-640.webp",
+          "width": 640,
+          "height": 854
+        },
+        {
+          "path": "assets/images/almont-exterior-1280.webp",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "changes": "Commons standard thumbnail, resized and encoded to WebP; display crop only. No AI generation or upscaling."
+    },
+    {
+      "id": "almont-entrance-user",
+      "source_type": "user-provided",
+      "title": "User-supplied Almont Hotel entrance at night",
+      "source": "assets/images/almont-entrance-user.png",
+      "original_filename": "codex-clipboard-c039cbea-a862-4be0-a8cf-1fc58ccd01af.png",
+      "author": "使用者提供",
+      "license": "User supplied for use in this private itinerary; no public license asserted",
+      "license_url": null,
+      "alt_zh": "那霸縣廳前阿蒙特飯店的夜間入口，暖色燈光映照門廊與植栽",
+      "dimensions": {
+        "width": 1024,
+        "height": 768
+      },
+      "files": [
+        {
+          "path": "assets/images/almont-entrance-user.png",
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "sha256": "fcd6bf4a06cc9d7e8f89beedf54db756fa3bdcd37eae88317759de6483af9691",
+      "changes": "Original user attachment copied without pixel changes. Displayed at its original 4:3 ratio."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+.highlights-video {
+  margin-top: clamp(18px, 2.2vw, 32px);
+}
+
+.highlights-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: var(--paper);
+}
+
+.highlights-video figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 16px;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.highlights-video button {
+  padding: 4px 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  background: transparent;
+  color: var(--deep-gold);
+}
+
+.highlights-video a:hover {
+  text-decoration: underline;
+}
+
+@media print {
+  .highlights-video { display: none; }
+}

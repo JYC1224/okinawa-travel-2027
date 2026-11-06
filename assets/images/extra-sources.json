@@ -1,0 +1,755 @@
+{
+  "retrieved_at_utc": "2026-11-02T17:18:37.376292+00:00",
+  "provider": "Wikimedia Commons",
+  "scope": "Additional Okinawa five-day website photographs; retained okinawa-day2 template is untouched.",
+  "reuse_note": "Credit each photograph with its named author, source page, license link, and resize/WebP conversion notice. CC BY-SA derivatives remain under the same CC BY-SA version. Cropping during presentation should also be disclosed where used.",
+  "verification": "Individual author, license and place checked through Commons file metadata and description pages; full-size originals verified with Commons SHA-1 where retrieved. All downloads decoded, dimension-checked and visually inspected.",
+  "download_limitation": "upload.wikimedia.org returned HTTP 429 and recommended standard thumbnails. Retained 4 full-size originals and 8 Commons API-returned standard 1920px thumbnails. Full-size original dimensions and URLs remain recorded; no file was upscaled.",
+  "images": [
+    {
+      "id": "shuri-gate",
+      "title": "Shurei-mon 2023.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shurei-mon_2023.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shurei-mon_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Renate Hano",
+      "author_url": null,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivatives_license": "CC BY-SA 4.0",
+      "attribution": "Shurei-mon 2023.jpg — Renate Hano, via Wikimedia Commons, CC BY-SA 4.0. Resized and converted to WebP.",
+      "date_taken": "2023-06-10 14:36:32",
+      "location": "守禮門，首里城公園，那霸市，沖繩縣，日本",
+      "caption_zh": "首里城公園守禮門（2023 年 6 月 10 日攝影）。",
+      "alt_zh": "綠樹與石牆之間，紅色雙層屋簷的首里城守禮門正面",
+      "dimensions": {
+        "width": 4000,
+        "height": 3000
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling.",
+      "crop_advice": "Keep the full two-tiered roof and gate columns. For 16:9, object-position: 50% 50%; avoid a very shallow panoramic crop.",
+      "currentness_note": "Post-2019-fire photograph of Shureimon. This gate is not the main Seiden hall.",
+      "original": {
+        "path": "research/photos-extra/originals/shuri-gate.jpg",
+        "bytes": 4768990,
+        "sha1": "fd09e35d9dd868d9e7b107c431a3ba4fc510338a",
+        "sha256": "4a1d0c3124586b16e325ea2539921d7c97dff6c3697dd14c0a87920265e37b5d"
+      },
+      "source_download": {
+        "path": "research/photos-extra/originals/shuri-gate.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Shurei-mon_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "kind": "original",
+        "width": 4000,
+        "height": 3000,
+        "bytes": 4768990,
+        "sha256": "4a1d0c3124586b16e325ea2539921d7c97dff6c3697dd14c0a87920265e37b5d"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/shuri-gate.json",
+      "files": [
+        {
+          "path": "assets/images/shuri-gate-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 91582,
+          "sha256": "884504ea4832d28e9cff1dca8d8d094e881b30f758192462f210a86fe5952421",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/shuri-gate-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 350454,
+          "sha256": "38dfd92794d2f256fce1cd5cdebc034a3cbe0a246315b11840fb18b5c2effa72",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/shuri-gate-1920.webp",
+          "width": 1920,
+          "height": 1440,
+          "bytes": 737894,
+          "sha256": "bf556899fade6b2da8ef11aae84ae23ef8df3e59e7b9985d181e7e015d2dddf2",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "shuri-walls",
+      "title": "Naha Shuri-jo Kankai-mon & Kyukei-mon 1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Naha_Shuri-jo_Kankai-mon_%26_Kyukei-mon_1.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Naha_Shuri-jo_Kankai-mon_%26_Kyukei-mon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Zairon",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Zairon",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "derivatives_license": "CC BY 4.0",
+      "attribution": "Naha Shuri-jo Kankai-mon & Kyukei-mon 1.jpg — Zairon, via Wikimedia Commons, CC BY 4.0. Resized and converted to WebP.",
+      "date_taken": "2023-10-26 12:12:08",
+      "location": "首里城歡會門與久慶門周邊城牆，那霸市，沖繩縣，日本",
+      "caption_zh": "首里城歡會門、久慶門與石造城牆（2023 年 10 月 26 日攝影）。",
+      "alt_zh": "首里城彎曲石牆、紅瓦城門與遠方的那霸市景",
+      "dimensions": {
+        "width": 5079,
+        "height": 3366
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling.",
+      "crop_advice": "Excellent wide 16:9 crop, object-position: 50% 58%. Preserve the curved wall and the foreground gate roof.",
+      "currentness_note": "2023 photograph of the gates and walls, not a claim about the restored Seiden hall.",
+      "original": {
+        "path": "research/photos-extra/originals/shuri-walls.jpg",
+        "bytes": 7826462,
+        "sha1": "26bec575e120859252bc2f13faaa96f681330f12",
+        "sha256": "fceed3334ceb61a4031ec49447a0cb244d85dede15dac00979b2daf6a52edfbc"
+      },
+      "source_download": {
+        "path": "research/photos-extra/originals/shuri-walls.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Naha_Shuri-jo_Kankai-mon_%26_Kyukei-mon_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "kind": "original",
+        "width": 5079,
+        "height": 3366,
+        "bytes": 7826462,
+        "sha256": "fceed3334ceb61a4031ec49447a0cb244d85dede15dac00979b2daf6a52edfbc"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/shuri-walls.json",
+      "files": [
+        {
+          "path": "assets/images/shuri-walls-640.webp",
+          "width": 640,
+          "height": 424,
+          "bytes": 76576,
+          "sha256": "0eecba5227bc4d7835687800502ce7bf881837a856dd93b462a1d9a27f8cacb5",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/shuri-walls-1280.webp",
+          "width": 1280,
+          "height": 848,
+          "bytes": 266670,
+          "sha256": "690a490cda4c11a094248742078b30cce08900091258872e6c461c57b49f2854",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/shuri-walls-1920.webp",
+          "width": 1920,
+          "height": 1272,
+          "bytes": 549900,
+          "sha256": "cf6b39abf8c4424c63b604fcae04a356453b030dcb5be72356c345d3f05d08e2",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "shuri-reconstruction-2025-feb",
+      "title": "Shuri Castle Reconstruction.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_Reconstruction.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Shuri_Castle_Reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "おにく",
+      "author_url": "https://commons.wikimedia.org/wiki/User:%E3%81%8A%E3%81%AB%E3%81%8F",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "derivatives_license": "CC0",
+      "attribution": "Shuri Castle Reconstruction.jpg — おにく, via Wikimedia Commons, CC0. Resized and converted to WebP.",
+      "date_taken": "2025-02-11 09:50:41",
+      "location": "首里城正殿重建工事，那霸市，沖繩縣，日本",
+      "caption_zh": "首里城正殿重建施工紀錄：屋頂與保護棚內的工程（2025 年 2 月 11 日攝影）。",
+      "alt_zh": "2025 年 2 月首里城正殿重建現場，木造屋頂位於大型保護棚內",
+      "dimensions": {
+        "width": 4032,
+        "height": 3024
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling.",
+      "crop_advice": "Use as a dated supporting construction photograph, preferably in 4:3. Keep the protective shed visible to preserve context.",
+      "currentness_note": "Historical construction record taken 2025-02-11. Does not establish construction, completion, or public access status on the travel date.",
+      "original": {
+        "path": "research/photos-extra/originals/shuri-reconstruction-2025-feb.jpg",
+        "bytes": 5128578,
+        "sha1": "58304b45bb4d124a1c69332d5115d567724346eb",
+        "sha256": "58c9c0094319d4b0ce92473fb4d1f5484f1120e44f46168db0facf223a18b230"
+      },
+      "source_download": {
+        "path": "research/photos-extra/originals/shuri-reconstruction-2025-feb.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Shuri_Castle_Reconstruction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "kind": "original",
+        "width": 4032,
+        "height": 3024,
+        "bytes": 5128578,
+        "sha256": "58c9c0094319d4b0ce92473fb4d1f5484f1120e44f46168db0facf223a18b230"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/shuri-reconstruction-2025-feb.json",
+      "files": [
+        {
+          "path": "assets/images/shuri-reconstruction-2025-feb-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 99116,
+          "sha256": "29ca427c49d0ef1938d153ee23431031ae4c307ad8e06d67c4a116017545c1f0",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/shuri-reconstruction-2025-feb-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 317498,
+          "sha256": "9e2dd2115db5f323660abdf47932394aceae485df468a8644de0f401834bad74",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/shuri-reconstruction-2025-feb-1920.webp",
+          "width": 1920,
+          "height": 1440,
+          "bytes": 585554,
+          "sha256": "8af60284f61ef2cfde9d92787e1f7ed10521f48a506f23ad499bd1116f4e2dd0",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "shuri-reconstruction-2025-dec",
+      "title": "Shuri Castle under reconstruction on 23 December 2025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shuri_Castle_under_reconstruction_on_23_December_2025.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Shuri_Castle_under_reconstruction_on_23_December_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Jun",
+      "author_url": null,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivatives_license": "CC BY-SA 4.0",
+      "attribution": "Shuri Castle under reconstruction on 23 December 2025.jpg — Jun, via Wikimedia Commons, CC BY-SA 4.0. Resized and converted to WebP.",
+      "date_taken": "2025-12-23",
+      "location": "首里城正殿重建工事，那霸市，沖繩縣，日本",
+      "caption_zh": "首里城正殿重建施工紀錄：正面立面（2025 年 12 月 23 日攝影）。",
+      "alt_zh": "2025 年 12 月 23 日首里城重建正殿立面，前方仍可見工程圍欄",
+      "dimensions": {
+        "width": 1067,
+        "height": 844
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling.",
+      "crop_advice": "Small dated supporting image only; use at or below 640 CSS pixels. Preserve the complete facade and visible construction fence.",
+      "currentness_note": "Historical construction record taken 2025-12-23. Original is only 1067x844; 1280px/1920px variants are deliberately omitted rather than upscaled. Does not establish current access or completion status.",
+      "original": {
+        "path": "research/photos-extra/originals/shuri-reconstruction-2025-dec.jpg",
+        "bytes": 229542,
+        "sha1": "f1de0bb83a7438afeeee625e2cb0e9ea8d8cce2c",
+        "sha256": "f798a243510b0d492ff5f9e76ee9071aef605477a6516794dc9c35a08b20d60d"
+      },
+      "source_download": {
+        "path": "research/photos-extra/originals/shuri-reconstruction-2025-dec.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Shuri_Castle_under_reconstruction_on_23_December_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "kind": "original",
+        "width": 1067,
+        "height": 844,
+        "bytes": 229542,
+        "sha256": "f798a243510b0d492ff5f9e76ee9071aef605477a6516794dc9c35a08b20d60d"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/shuri-reconstruction-2025-dec.json",
+      "files": [
+        {
+          "path": "assets/images/shuri-reconstruction-2025-dec-640.webp",
+          "width": 640,
+          "height": 506,
+          "bytes": 69376,
+          "sha256": "91e7a7354f52c8bd7a8f902b92e730a4f2a8bfda97aed7bdfbc9075448195bab",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/shuri-reconstruction-2025-dec-1067.webp",
+          "width": 1067,
+          "height": 844,
+          "bytes": 159722,
+          "sha256": "8b3b5be00d38e582e2dd765f55e2d4c036208aeee10fea6bae1b039d65258e43",
+          "upscaled": false
+        }
+      ],
+      "recommended_max_display_width": 640,
+      "source_credit": "Obtained by Yuet Man Lee and released with permission from Jun."
+    },
+    {
+      "id": "gyokusendo-interior",
+      "title": "Gyokusendo Nanjo Okinawa Japan03s3104.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gyokusendo_Nanjo_Okinawa_Japan03s3104.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gyokusendo_Nanjo_Okinawa_Japan03s3104.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "663highland",
+      "author_url": "https://ja.wikipedia.org/wiki/user:663highland",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "derivatives_license": "CC BY 2.5",
+      "attribution": "Gyokusendo Nanjo Okinawa Japan03s3104.jpg — 663highland, via Wikimedia Commons, CC BY 2.5. Resized and converted to WebP.",
+      "date_taken": "2010-03-21",
+      "location": "玉泉洞，沖繩世界，南城市，沖繩縣，日本",
+      "caption_zh": "玉泉洞內的鐘乳石、石筍與參觀步道（2010 年 3 月 21 日攝影）。",
+      "alt_zh": "玉泉洞內暖色燈光照亮密集鐘乳石，步道沿洞壁向遠方延伸",
+      "dimensions": {
+        "width": 3104,
+        "height": 2064
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling. Derived from Wikimedia's standard 1920px thumbnail; full-size original download was rate-limited.",
+      "crop_advice": "For 16:9, object-position: 50% 54%. Keep the walkway on the left and the tall central stalagmite for scale.",
+      "currentness_note": "Actual cave interior photographed in 2010. Lighting and visitor infrastructure may have changed; do not describe it as a present-day inspection.",
+      "original": null,
+      "source_download": {
+        "path": "research/photos-extra/source-downloads/gyokusendo-interior-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Gyokusendo_Nanjo_Okinawa_Japan03s3104.jpg/1920px-Gyokusendo_Nanjo_Okinawa_Japan03s3104.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1277,
+        "bytes": 738422,
+        "sha256": "60d4e246bbcad5a35fe4f4844dc334f5fb69548d3a986a8ff526420d57b6303e"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/gyokusendo-interior.json",
+      "files": [
+        {
+          "path": "assets/images/gyokusendo-interior-640.webp",
+          "width": 640,
+          "height": 426,
+          "bytes": 90772,
+          "sha256": "e30b34751b0174334e5c06a15c36ffc61ebdce6166dcbde7dd68ed76e813c4e7",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/gyokusendo-interior-1280.webp",
+          "width": 1280,
+          "height": 851,
+          "bytes": 314046,
+          "sha256": "ad8d6d2b72370c5dc76e58c878b3c5f45bd631aecb9a873fca3b1768f42406a3",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/gyokusendo-interior-1920.webp",
+          "width": 1920,
+          "height": 1277,
+          "bytes": 626086,
+          "sha256": "fa06b51682f0aba5fbe308d560dfd87ed61eeab5aca950332996d2d0c6aec186",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "gyokusendo-pools",
+      "title": "Gyokusendo 20221228-1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Gyokusendo_20221228-1.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Gyokusendo_20221228-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Suicasmo",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Suicasmo",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivatives_license": "CC BY-SA 4.0",
+      "attribution": "Gyokusendo 20221228-1.jpg — Suicasmo, via Wikimedia Commons, CC BY-SA 4.0. Resized and converted to WebP.",
+      "date_taken": "2022-12-28 13:24:26",
+      "location": "玉泉洞，沖繩世界，南城市，沖繩縣，日本",
+      "caption_zh": "玉泉洞洞內水池與鐘乳石（2022 年 12 月 28 日攝影）。",
+      "alt_zh": "玉泉洞內藍色燈光映亮水池，周圍是棕色鐘乳石與石灰岩層",
+      "dimensions": {
+        "width": 5184,
+        "height": 3456
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling. Derived from Wikimedia's standard 1920px thumbnail; full-size original download was rate-limited.",
+      "crop_advice": "Keep the bright blue pools through the center. For 16:9, object-position: 50% 56%; avoid a tight crop that removes the cave ceiling.",
+      "currentness_note": "Actual cave interior photographed in 2022; lighting is photographic evidence from that date.",
+      "original": null,
+      "source_download": {
+        "path": "research/photos-extra/source-downloads/gyokusendo-pools-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Gyokusendo_20221228-1.jpg/1920px-Gyokusendo_20221228-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 544658,
+        "sha256": "5cde5e10edc3381cbde55237340ef9ec207d94d0a4e7569d9d68ae3d24546e5a"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/gyokusendo-pools.json",
+      "files": [
+        {
+          "path": "assets/images/gyokusendo-pools-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 55014,
+          "sha256": "4608f342879bf9bd54eda84fbbccd03a76d60949bfe763f873e157d215bb4986",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/gyokusendo-pools-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 195014,
+          "sha256": "2147b0dc5379bc8b7df5686f9499af98fb2faa38952a283657e9f560d92a8698",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/gyokusendo-pools-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 413160,
+          "sha256": "88a99a9774f082c9b39a5b47f80fd7fa53eb9ea9300b2a83d0e066aa246971ec",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "south-coast-chinen",
+      "title": "Chinen-Misaki-Park.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinen-Misaki-Park.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Chinen-Misaki-Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "MaedaAkihiko",
+      "author_url": "https://commons.wikimedia.org/wiki/User:MaedaAkihiko",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "derivatives_license": "CC0",
+      "attribution": "Chinen-Misaki-Park.jpg — MaedaAkihiko, via Wikimedia Commons, CC0. Resized and converted to WebP.",
+      "date_taken": "2024-06-30",
+      "location": "知念岬公園，南城市，沖繩縣，日本",
+      "caption_zh": "知念岬公園與藍色太平洋（2024 年 6 月 30 日攝影）。",
+      "alt_zh": "知念岬公園的綠地與步道伸向湛藍海面，遠方可見離島",
+      "dimensions": {
+        "width": 5471,
+        "height": 3647
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling. Derived from Wikimedia's standard 1920px thumbnail; full-size original download was rate-limited.",
+      "crop_advice": "Strong 16:9 or 2:1 coastal banner. For 16:9, object-position: 50% 55%; keep the pavilion near the center and retain the horizon.",
+      "currentness_note": "Sunny 2024 landscape photograph; weather is illustrative, not a forecast.",
+      "original": null,
+      "source_download": {
+        "path": "research/photos-extra/source-downloads/south-coast-chinen-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Chinen-Misaki-Park.jpg/1920px-Chinen-Misaki-Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 760119,
+        "sha256": "29aa9d26424d91ec2e09944ea76ec01e407a9e7d319dc62826cab8475f11cac5"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/south-coast-chinen.json",
+      "files": [
+        {
+          "path": "assets/images/south-coast-chinen-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 59434,
+          "sha256": "f8748d919198a2f542fbcb001b53ef020081db615e4efeea4de3433d744d4120",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/south-coast-chinen-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 267990,
+          "sha256": "8575f82553cb302e3925c5df91cd25956c4d1881f58ed6386fb9bb9304225143",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/south-coast-chinen-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 653050,
+          "sha256": "c9a5dc04d66961b5b0fb3f3c165847d7ae13480297ba771c45aaaa88ec8af329",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "south-coast-ou",
+      "title": "Ou Island Nanjo 202208.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ou_Island_Nanjo_202208.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ou_Island_Nanjo_202208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Kugel~commonswiki",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Kugel~commonswiki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivatives_license": "CC BY-SA 4.0",
+      "attribution": "Ou Island Nanjo 202208.jpg — Kugel~commonswiki, via Wikimedia Commons, CC BY-SA 4.0. Resized and converted to WebP.",
+      "date_taken": "Taken on 7 August 2022",
+      "location": "奧武島與周邊海岸，南城市，沖繩縣，日本",
+      "caption_zh": "南城市奧武島與近岸海景（2022 年 8 月 7 日攝影）。",
+      "alt_zh": "從南城市岸邊望向奧武島，前景有綠色農田與藍色海灣",
+      "dimensions": {
+        "width": 6000,
+        "height": 4000
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling. Derived from Wikimedia's standard 1920px thumbnail; full-size original download was rate-limited.",
+      "crop_advice": "Good 16:9 landscape, object-position: 50% 50%. Keep the full island in the middle third; avoid presenting this as a beach-level view.",
+      "currentness_note": "View of Ou Island, Nanjo, in 2022. Do not label as the separate Ou Island in the Miyako Islands.",
+      "original": null,
+      "source_download": {
+        "path": "research/photos-extra/source-downloads/south-coast-ou-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ou_Island_Nanjo_202208.jpg/1920px-Ou_Island_Nanjo_202208.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 717811,
+        "sha256": "5ab56b82a6e41db74bcbaf1a9ad8e24142a47bb45660e0c9547dad899dd8c9b0"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/south-coast-ou.json",
+      "files": [
+        {
+          "path": "assets/images/south-coast-ou-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 58346,
+          "sha256": "53b1fe656951a562edb963a44f571f3059860c42e472d06f0be662a5ad02b723",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/south-coast-ou-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 253508,
+          "sha256": "cee892c102785319a0893e3750755f46a4918013813e3e40735b439b6f4f8f1b",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/south-coast-ou-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 603898,
+          "sha256": "6ccd0379a510d089da89eeb6223309c0c4b98fa9e6d907dbdb8d4b116d5b13ae",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "senaga-terrace",
+      "title": "Umikaji Terrace Senagajima.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Umikaji_Terrace_Senagajima.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Umikaji_Terrace_Senagajima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Kugel~commonswiki",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Kugel~commonswiki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivatives_license": "CC BY-SA 4.0",
+      "attribution": "Umikaji Terrace Senagajima.jpg — Kugel~commonswiki, via Wikimedia Commons, CC BY-SA 4.0. Resized and converted to WebP.",
+      "date_taken": "2017-07-20",
+      "location": "瀨長島 Umikaji Terrace，豐見城市，沖繩縣，日本",
+      "caption_zh": "瀨長島 Umikaji Terrace 的白色建築與階梯（2017 年 7 月 20 日攝影）。",
+      "alt_zh": "晴天的瀨長島 Umikaji Terrace，白色階梯與白色商店沿坡地層層排列",
+      "dimensions": {
+        "width": 4000,
+        "height": 3000
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling. Derived from Wikimedia's standard 1920px thumbnail; full-size original download was rate-limited.",
+      "crop_advice": "For 16:9, object-position: 50% 65% to retain stairs and white storefronts. No sea is visible in this exact angle; use the separate senaga-sea image for an ocean view.",
+      "currentness_note": "Actual Umikaji Terrace photograph from 2017. Individual tenants and signs may have changed. CC BY-SA 4.0 is explicitly selected from the dual CC BY-SA/GFDL offer.",
+      "original": null,
+      "source_download": {
+        "path": "research/photos-extra/source-downloads/senaga-terrace-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Umikaji_Terrace_Senagajima.jpg/1920px-Umikaji_Terrace_Senagajima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1440,
+        "bytes": 696711,
+        "sha256": "0449558ace1027ed0fb056d0e63d6cd683e05445a1b545b0177e0d70b60d8676"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/senaga-terrace.json",
+      "files": [
+        {
+          "path": "assets/images/senaga-terrace-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 51334,
+          "sha256": "11d4fc6bb94241670f7bc21fb518e0f28cc20ff628af4aec49ff4f8355ad4fbe",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/senaga-terrace-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 217200,
+          "sha256": "4da62b985ec997e9390361dcc7d5f199627d7795a69b967e02dfe09bfda88bf8",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/senaga-terrace-1920.webp",
+          "width": 1920,
+          "height": 1440,
+          "bytes": 553978,
+          "sha256": "7dfeb3086bef1b4de581a3d136cc667ec0341152b069e69277012224fe0a7e90",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "senaga-sea",
+      "title": "JP 日本 Japan 沖繩 OKINAWA 豐見城市 Tomigusuku 琉球 Ryukyu 瀨長島 Senagajima Umikaji Terrace view 機場跑道 Aport Runway n 東海 East Sea January 2025 R12S 220.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_%E7%90%89%E7%90%83_Ryukyu_%E7%80%A8%E9%95%B7%E5%B3%B6_Senagajima_Umikaji_Terrace_view_%E6%A9%9F%E5%A0%B4%E8%B7%91%E9%81%93_Aport_Runway_n_%E6%9D%B1%E6%B5%B7_East_Sea_January_2025_R12S_220.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/3/36/JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_%E7%90%89%E7%90%83_Ryukyu_%E7%80%A8%E9%95%B7%E5%B3%B6_Senagajima_Umikaji_Terrace_view_%E6%A9%9F%E5%A0%B4%E8%B7%91%E9%81%93_Aport_Runway_n_%E6%9D%B1%E6%B5%B7_East_Sea_January_2025_R12S_220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Naha Mama Pavilionz",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Naha_Mama_Pavilionz",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "derivatives_license": "CC0",
+      "attribution": "JP 日本 Japan 沖繩 OKINAWA 豐見城市 Tomigusuku 琉球 Ryukyu 瀨長島 Senagajima Umikaji Terrace view 機場跑道 Aport Runway n 東海 East Sea January 2025 R12S 220.jpg — Naha Mama Pavilionz, via Wikimedia Commons, CC0. Resized and converted to WebP.",
+      "date_taken": "2025-01-16 17:14:57",
+      "location": "從瀨長島 Umikaji Terrace 望向那霸機場跑道與海面，豐見城市，沖繩縣，日本",
+      "caption_zh": "從 Umikaji Terrace 看海與飛機，前景可見白色露台（2025 年 1 月 16 日攝影）。",
+      "alt_zh": "瀨長島 Umikaji Terrace 白色露台前方的海面，一架飛機飛越那霸機場跑道",
+      "dimensions": {
+        "width": 4000,
+        "height": 3000
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling. Derived from Wikimedia's standard 1920px thumbnail; full-size original download was rate-limited.",
+      "crop_advice": "Contextual ocean-and-plane image; retain the white terrace at bottom right and plane near the horizon. Prefer full 4:3 or object-position: 50% 58% in 16:9.",
+      "currentness_note": "Actual 2025 overcast scene from Umikaji Terrace. Original includes a small camera timestamp; it is retained, not retouched.",
+      "original": null,
+      "source_download": {
+        "path": "research/photos-extra/source-downloads/senaga-sea-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/JP_%E6%97%A5%E6%9C%AC_Japan_%E6%B2%96%E7%B9%A9_OKINAWA_%E8%B1%90%E8%A6%8B%E5%9F%8E%E5%B8%82_Tomigusuku_%E7%90%89%E7%90%83_Ryukyu_%E7%80%A8%E9%95%B7%E5%B3%B6_Senagajima_Umikaji_Terrace_view_%E6%A9%9F%E5%A0%B4%E8%B7%91%E9%81%93_Aport_Runway_n_%E6%9D%B1%E6%B5%B7_East_Sea_January_2025_R12S_220.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1440,
+        "bytes": 650063,
+        "sha256": "6b25c8a488b17199b25ce647051904a2efebab238613371ec079367d1d9a0c1f"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/senaga-sea.json",
+      "files": [
+        {
+          "path": "assets/images/senaga-sea-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 69030,
+          "sha256": "b21386c2aa389b330e08cafb7e83b91e7dfbf0321b4f142938dba9819c693e0a",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/senaga-sea-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 269468,
+          "sha256": "46a0fdef1ea6701d98b64d2330be035df526ac0c481257e770605592f2732a89",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/senaga-sea-1920.webp",
+          "width": 1920,
+          "height": 1440,
+          "bytes": 524516,
+          "sha256": "811c6281994786c9ae2d8d9985e83f5a2b4f78e7d9f6ee72b3603b00e748e117",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    },
+    {
+      "id": "kokusai-day",
+      "title": "202408 沖繩縣那霸市的那霸國際通的街景.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:202408_%E6%B2%96%E7%B9%A9%E7%B8%A3%E9%82%A3%E9%9C%B8%E5%B8%82%E7%9A%84%E9%82%A3%E9%9C%B8%E5%9C%8B%E9%9A%9B%E9%80%9A%E7%9A%84%E8%A1%97%E6%99%AF.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/202408_%E6%B2%96%E7%B9%A9%E7%B8%A3%E9%82%A3%E9%9C%B8%E5%B8%82%E7%9A%84%E9%82%A3%E9%9C%B8%E5%9C%8B%E9%9A%9B%E9%80%9A%E7%9A%84%E8%A1%97%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "Junyu-K",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Junyu-K",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "derivatives_license": "CC BY 4.0",
+      "attribution": "202408 沖繩縣那霸市的那霸國際通的街景.jpg — Junyu-K, via Wikimedia Commons, CC BY 4.0. Resized and converted to WebP.",
+      "date_taken": "2024-08-12 12:47:02",
+      "location": "國際通，那霸市，沖繩縣，日本",
+      "caption_zh": "那霸國際通的夏日白天街景（2024 年 8 月 12 日攝影）。",
+      "alt_zh": "那霸國際通的白天街景，棕櫚樹、商店、巴士與步行旅客沿街排列",
+      "dimensions": {
+        "width": 5472,
+        "height": 3648
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling. Derived from Wikimedia's standard 1920px thumbnail; full-size original download was rate-limited.",
+      "crop_advice": "For 16:9, object-position: 50% 52%. Keep the palm, sidewalk, and central street opening. This is Naha, Okinawa, not the similarly named street in Tokyo.",
+      "currentness_note": "2024 Naha street photograph. Tenants and advertisements may have changed.",
+      "original": null,
+      "source_download": {
+        "path": "research/photos-extra/source-downloads/kokusai-day-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/202408_%E6%B2%96%E7%B9%A9%E7%B8%A3%E9%82%A3%E9%9C%B8%E5%B8%82%E7%9A%84%E9%82%A3%E9%9C%B8%E5%9C%8B%E9%9A%9B%E9%80%9A%E7%9A%84%E8%A1%97%E6%99%AF.jpg/1920px-202408_%E6%B2%96%E7%B9%A9%E7%B8%A3%E9%82%A3%E9%9C%B8%E5%B8%82%E7%9A%84%E9%82%A3%E9%9C%B8%E5%9C%8B%E9%9A%9B%E9%80%9A%E7%9A%84%E8%A1%97%E6%99%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 885200,
+        "sha256": "57c7ac7d5c6c4ae86190b66cac68ac45241f840602edaf4f2f8e52d77215a3b1"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/kokusai-day.json",
+      "files": [
+        {
+          "path": "assets/images/kokusai-day-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 91020,
+          "sha256": "654dd05454385539c0dd1ff2b0fb6c60c22b68a2607697ae2f231f8ea28d89e0",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/kokusai-day-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 331160,
+          "sha256": "7091378bd8b1dbf51d5c64a561797ccb354b6b6171b607e77b7095c4de2e62d6",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/kokusai-day-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 758506,
+          "sha256": "e07997d8c8f6a6e0797c772c7a298f73613cdb9caca01499fbc8590182332170",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Self-photographed"
+    },
+    {
+      "id": "kokusai-night",
+      "title": "Night at Kokusai-dori 20250503184037.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Night_at_Kokusai-dori_20250503184037.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Night_at_Kokusai-dori_20250503184037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "TurnOnTheNight",
+      "author_url": "https://commons.wikimedia.org/wiki/User:TurnOnTheNight",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "derivatives_license": "CC BY-SA 4.0",
+      "attribution": "Night at Kokusai-dori 20250503184037.jpg — TurnOnTheNight, via Wikimedia Commons, CC BY-SA 4.0. Resized and converted to WebP.",
+      "date_taken": "2025-05-03 18:40:37",
+      "location": "國際通，那霸市，沖繩縣，日本",
+      "caption_zh": "那霸國際通入夜後的霓虹街景（2025 年 5 月 3 日攝影）。",
+      "alt_zh": "夜晚的那霸國際通，霓虹招牌和商店燈光照亮街道，車輛沿街前行",
+      "dimensions": {
+        "width": 5774,
+        "height": 3849
+      },
+      "changes": "EXIF orientation normalized; converted to RGB/sRGB when an embedded ICC profile is available; resized with Lanczos; encoded as WebP. No crop, no generative changes, no upscaling. Derived from Wikimedia's standard 1920px thumbnail; full-size original download was rate-limited.",
+      "crop_advice": "Recommended Day 1 hero. Strong 16:9 crop at object-position: 50% 48%; 2:1 also works. Retain the vanishing point just left of center and both banks of neon storefronts.",
+      "currentness_note": "Actual 2025 night scene, not a daylight image darkened artificially. Tenants and advertisements may have changed.",
+      "original": null,
+      "source_download": {
+        "path": "research/photos-extra/source-downloads/kokusai-night-commons-1920.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Night_at_Kokusai-dori_20250503184037.jpg/1920px-Night_at_Kokusai-dori_20250503184037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "kind": "Wikimedia standard 1920px thumbnail",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 834107,
+        "sha256": "42c53995a57c582ab98eb4a5ed4bb6b86ca7815faece72385be90f91cf3c047b"
+      },
+      "metadata_snapshot": "research/photos-extra/metadata/kokusai-night.json",
+      "files": [
+        {
+          "path": "assets/images/kokusai-night-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 85564,
+          "sha256": "42f0404e2780b8794ad48534794f6ad849de619636aa42fb14e45e9dd16b8004",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/kokusai-night-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 323518,
+          "sha256": "eb37f365895983045ecf5314a610b874c9f7079702c077be752503c9369b0def",
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/kokusai-night-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 698330,
+          "sha256": "ec4178567ffba449c748e5fec5ea90324412e73c8351a53016f83a2e1e156d3a",
+          "upscaled": false
+        }
+      ],
+      "source_credit": "Own work"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "provider": "Wikimedia Commons",
+  "images": [
+    {
+      "id": "okinawa-museum",
+      "title": "Okinawa Prefectural Museum & Art Museum02bss3200.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Okinawa_Prefectural_Museum_%26_Art_Museum02bss3200.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Okinawa_Prefectural_Museum_%26_Art_Museum02bss3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "date_taken": "2009-03-20",
+      "caption_zh": "沖繩縣立博物館・美術館外觀。",
+      "alt_zh": "從草坪望向沖繩縣立博物館・美術館的淺色城牆造型外觀",
+      "files": [
+        {
+          "path": "assets/images/okinawa-museum-640.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 47428,
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/okinawa-museum-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "bytes": 207616,
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/okinawa-museum-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "bytes": 470620,
+          "upscaled": false
+        }
+      ],
+      "dimensions": {
+        "width": 3200,
+        "height": 2133
+      },
+      "changes": "Orientation normalized, resized and converted to WebP. Original framing retained.",
+      "source_download": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Okinawa_Prefectural_Museum_%26_Art_Museum02bss3200.jpg/1920px-Okinawa_Prefectural_Museum_%26_Art_Museum02bss3200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "path": "research/photos-day3/okinawa-museum.jpg",
+        "width": 1920,
+        "height": 1280,
+        "kind": "Commons standard thumbnail"
+      }
+    },
+    {
+      "id": "omoromachi-main-place",
+      "title": "San-A Naha Main Place 20250505161500.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:San-A_Naha_Main_Place_20250505161500.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/6/67/San-A_Naha_Main_Place_20250505161500.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "TurnOnTheNight",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "date_taken": "2025-05-05 16:15:00",
+      "caption_zh": "2025 年 5 月拍攝的 San-A Naha Main Place 購物中心。",
+      "alt_zh": "那霸新都心 San-A Naha Main Place 購物中心的外觀",
+      "files": [
+        {
+          "path": "assets/images/omoromachi-main-place-640.webp",
+          "width": 640,
+          "height": 267,
+          "bytes": 40478,
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/omoromachi-main-place-1280.webp",
+          "width": 1280,
+          "height": 533,
+          "bytes": 152026,
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/omoromachi-main-place-1920.webp",
+          "width": 1920,
+          "height": 800,
+          "bytes": 345546,
+          "upscaled": false
+        }
+      ],
+      "dimensions": {
+        "width": 5857,
+        "height": 2439
+      },
+      "changes": "Orientation normalized, resized and converted to WebP. Original framing retained.",
+      "source_download": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/San-A_Naha_Main_Place_20250505161500.jpg/1920px-San-A_Naha_Main_Place_20250505161500.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "path": "research/photos-day3/omoromachi-main-place.jpg",
+        "width": 1920,
+        "height": 800,
+        "kind": "Commons standard thumbnail"
+      }
+    },
+    {
+      "id": "omoromachi-dfs",
+      "title": "T ギャラリア 沖縄 by DFSとおもろまち駅.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:T_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%82%A2_%E6%B2%96%E7%B8%84_by_DFS%E3%81%A8%E3%81%8A%E3%82%82%E3%82%8D%E3%81%BE%E3%81%A1%E9%A7%85.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/T_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%82%A2_%E6%B2%96%E7%B8%84_by_DFS%E3%81%A8%E3%81%8A%E3%82%82%E3%82%8D%E3%81%BE%E3%81%A1%E9%A7%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "特急東海",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "date_taken": "13 March 2024, 09:33:34",
+      "caption_zh": "2024 年 3 月拍攝的沖繩 T Galleria by DFS 與 Omoromachi 單軌站。",
+      "alt_zh": "沖繩 T Galleria by DFS 外觀與相鄰的 Omoromachi 單軌站",
+      "files": [
+        {
+          "path": "assets/images/omoromachi-dfs-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 50492,
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/omoromachi-dfs-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 189708,
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/omoromachi-dfs-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 408950,
+          "upscaled": false
+        }
+      ],
+      "dimensions": {
+        "width": 2560,
+        "height": 1440
+      },
+      "changes": "Orientation normalized, resized and converted to WebP. Original framing retained.",
+      "source_download": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/T_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%82%A2_%E6%B2%96%E7%B8%84_by_DFS%E3%81%A8%E3%81%8A%E3%82%82%E3%82%8D%E3%81%BE%E3%81%A1%E9%A7%85.jpg/1920px-T_%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%82%A2_%E6%B2%96%E7%B8%84_by_DFS%E3%81%A8%E3%81%8A%E3%82%82%E3%82%8D%E3%81%BE%E3%81%A1%E9%A7%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "path": "research/photos-day3/omoromachi-dfs.jpg",
+        "width": 1920,
+        "height": 1080,
+        "kind": "Commons standard thumbnail"
+      }
+    },
+    {
+      "id": "sakaemachi-market",
+      "title": "Nippon Okinaw Naha 栄町市場00.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nippon_Okinaw_Naha_%E6%A0%84%E7%94%BA%E5%B8%82%E5%A0%B400.jpg",
+      "source_image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Nippon_Okinaw_Naha_%E6%A0%84%E7%94%BA%E5%B8%82%E5%A0%B400.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "author": "HmanJp",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "date_taken": "2010-11-26",
+      "caption_zh": "2010 年拍攝的那霸榮町市場傍晚街景。",
+      "alt_zh": "那霸榮町市場的傍晚街景",
+      "files": [
+        {
+          "path": "assets/images/sakaemachi-market-640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 58410,
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/sakaemachi-market-1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 170204,
+          "upscaled": false
+        },
+        {
+          "path": "assets/images/sakaemachi-market-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 238018,
+          "upscaled": false
+        }
+      ],
+      "dimensions": {
+        "width": 1600,
+        "height": 1200
+      },
+      "changes": "Orientation normalized, resized and converted to WebP. Original framing retained.",
+      "source_download": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Nippon_Okinaw_Naha_%E6%A0%84%E7%94%BA%E5%B8%82%E5%A0%B400.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "path": "research/photos-day3/sakaemachi-market.jpg",
+        "width": 1600,
+        "height": 1200,
+        "kind": "original"
+      }
+    }
+  ]
+}

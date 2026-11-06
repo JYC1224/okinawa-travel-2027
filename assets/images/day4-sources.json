@@ -1,0 +1,17 @@
+[
+  {
+    "id": "churaumi-corals",
+    "title": "Corals in Okinawa Churaumi Aquarium 4.jpg",
+    "author": "そらみみ",
+    "source": "https://commons.wikimedia.org/wiki/File:Corals_in_Okinawa_Churaumi_Aquarium_4.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Corals_in_Okinawa_Churaumi_Aquarium_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt_zh": "沖繩美麗海水族館的礁區展示，貝類與珊瑚附著在藍光映照的礁石間",
+    "changes": "Resized and encoded to WebP; cropped for display in the paired aquarium photos. Derivatives retain CC BY-SA 4.0.",
+    "variants": [
+      { "file": "churaumi-corals-640.webp", "width": 640, "height": 854 },
+      { "file": "churaumi-corals-1280.webp", "width": 1280, "height": 1706 }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+/* Native disclosures for the detailed arrangements; established itinerary styling is retained. */
+.day-arrangements{margin-top:28px}
+.day-arrangements>summary{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 0;border-bottom:1px solid var(--line);cursor:pointer;list-style:none}
+.day-arrangements>summary::-webkit-details-marker{display:none}
+.day-arrangements>summary::marker{content:""}
+.arrangement-title{font-size:20px;font-weight:500;line-height:1.5;color:var(--deep-gold);letter-spacing:1px}
+.arrangement-action{display:flex;align-items:center;gap:12px;font-size:13px;line-height:1.8;letter-spacing:.4px;color:var(--deep-gold);white-space:nowrap}
+.arrangement-action::after{content:"+";font:20px/1 Arial,sans-serif;width:16px;text-align:center}
+.arrangement-hide{display:none}
+.day-arrangements[open] .arrangement-show{display:none}
+.day-arrangements[open] .arrangement-hide{display:inline}
+.day-arrangements[open] .arrangement-action::after{content:"−"}
+.arrangement-content{padding-top:18px}
+.arrangement-intro{font-size:13px;line-height:2;color:#887566;margin-bottom:16px}
+@media(max-width:767px){.day-arrangements{margin-top:24px}.day-arrangements>summary{gap:14px;padding:16px 0}.arrangement-title{font-size:19px}.arrangement-action{font-size:12px;gap:9px}.arrangement-intro{font-size:12px;line-height:1.9}.arrangement-content{padding-top:16px}}

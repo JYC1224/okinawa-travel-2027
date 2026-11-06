@@ -1,0 +1,24 @@
+{
+  "hotel": "Almont Hotel Naha-Kenchomae",
+  "policy": "Only activate interior photography after the owner supplies an image or an explicit reusable license is verified. These slots are not rendered as empty placeholders.",
+  "slots": [
+    {
+      "id": "almont-room",
+      "suggested_filename": "almont-room-1280.webp",
+      "suggested_width": 1280,
+      "suggested_aspect_ratio": "3:2",
+      "status": "awaiting-authorized-photo",
+      "subject": "Actual guest room of Almont Hotel Naha-Kenchomae; no claim about booked room category",
+      "required_metadata": ["author", "source", "license", "license_url", "permission_record"]
+    },
+    {
+      "id": "almont-bath",
+      "suggested_filename": "almont-bath-1280.webp",
+      "suggested_width": 1280,
+      "suggested_aspect_ratio": "3:2",
+      "status": "awaiting-authorized-photo",
+      "subject": "Actual 12F public bath of Almont Hotel Naha-Kenchomae",
+      "required_metadata": ["author", "source", "license", "license_url", "permission_record"]
+    }
+  ]
+}
