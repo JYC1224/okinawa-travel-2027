@@ -1,5 +1,5 @@
 {
-  "provider": "Wikimedia Commons, Flickr and user-provided photography",
+  "provider": "Wikimedia Commons, Flickr, Pexels, Unsplash and user-provided photography",
   "used_images": [
     {
       "id": "kouri",
@@ -721,6 +721,56 @@
         }
       ],
       "changes": "Resized and encoded to WebP from the user attachment. Original framing retained."
+    },
+    {
+      "id": "dining-wagyu",
+      "title": "Sliced Raw Wagyu Beef with Vegetables",
+      "author": "Jed ji",
+      "source": "https://www.pexels.com/photo/sliced-raw-wagyu-beef-with-vegetables-20036092/",
+      "original_url": "https://images.pexels.com/photos/20036092/pexels-photo-20036092.jpeg?cs=srgb&fm=jpg",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "alt_zh": "和牛肉片與配菜盛放於木盤上的料理示意照片",
+      "files": [
+        {
+          "path": "assets/images/dining-wagyu-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "path": "assets/images/dining-wagyu-1280.webp",
+          "width": 1280,
+          "height": 853
+        }
+      ],
+      "role": "illustrative-food-photography",
+      "restaurant_photography": false,
+      "changes": "Resized, encoded as WebP and displayed with CSS cropping."
+    },
+    {
+      "id": "dining-charcoal",
+      "title": "Meat cooking on a metal grill with tongs",
+      "author": "Zion C",
+      "source": "https://unsplash.com/photos/meat-cooking-on-a-metal-grill-with-tongs-4AY1asZPoYs",
+      "original_url": "https://images.unsplash.com/photo-1785636883701-bd4f9e3173c4?auto=format&fit=max&w=2400&q=90",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "alt_zh": "夾子翻動烤網上的牛肉，炭火燒肉方式示意照片",
+      "files": [
+        {
+          "path": "assets/images/dining-charcoal-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "path": "assets/images/dining-charcoal-1280.webp",
+          "width": 1280,
+          "height": 853
+        }
+      ],
+      "role": "illustrative-food-photography",
+      "restaurant_photography": false,
+      "changes": "Resized, encoded as WebP and displayed with CSS cropping."
     },
     {
       "id": "kokusai-day",

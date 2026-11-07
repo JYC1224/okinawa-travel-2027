@@ -11,7 +11,8 @@
   const sections = document.querySelectorAll(
     '.group-overview, .flights-layout, .journey-selections, .feature-figure, ' +
     '.feature-copy, .hotel-layout, .hotel-gallery, .day-heading, .daily-scenes, ' +
-    '.daily-summary, .route-distance-body'
+    '.daily-summary, .route-distance-body, .dining-heading, .dining-photo, ' +
+    '.dining-copy, .dining-notes'
   );
 
   function resetIfOutside(section) {
