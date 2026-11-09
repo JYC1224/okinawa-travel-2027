@@ -1,0 +1,14 @@
+{
+  "title": "沖繩・海色與王城五日 — 首頁影片",
+  "selected_by_user": ["A", "C", "D", "F", "I", "J"],
+  "editing": "擷取片段、統一幀率、輕微色調調整、短淡接與尺寸壓縮；手機版另作構圖裁切。無生成式景點影像。",
+  "location_note": "A、C、D、J 依原作者標示為沖繩，確切橋名及海岸未確認。F 與 I 為通用旅遊情境，並非本次航班或沖繩實景的紀錄。",
+  "clips": [
+    {"id":"A", "title":"沖繩跨海大橋", "author":"William Chen", "source":"https://www.pexels.com/video/okinawa-27063635/", "license":"Pexels License", "license_url":"https://www.pexels.com/license/", "download_url":"https://videos.pexels.com/video-files/27063635/12061594_2560_1440_60fps.mp4", "local_source":"A-bridge.mp4", "role":"沖繩海景"},
+    {"id":"C", "title":"沖繩海岸晨光", "author":"Kanenori", "source":"https://pixabay.com/videos/sea-coast-subtropical-morning-232415/", "license":"Pixabay Content License", "license_url":"https://pixabay.com/service/license-summary/", "download_url":"https://cdn.pixabay.com/video/2024/09/21/232415_large.mp4", "local_source":"C-morning.mp4", "role":"沖繩海景"},
+    {"id":"D", "title":"沖繩海岸空拍", "author":"Bochih Lin", "source":"https://www.pexels.com/video/serene-sunset-over-okinawa-shoreline-33015661/", "license":"Pexels License", "license_url":"https://www.pexels.com/license/", "download_url":"https://videos.pexels.com/video-files/33015661/14075175_2560_1440_30fps.mp4", "local_source":"D-coast.mp4", "role":"沖繩海景"},
+    {"id":"F", "title":"晨曦中的機翼", "author":"K", "source":"https://www.pexels.com/video/airplane-wing-over-cloudy-horizon-at-sunrise-28880644/", "license":"Pexels License", "license_url":"https://www.pexels.com/license/", "download_url":"https://videos.pexels.com/video-files/28880644/12502619_2560_1440_24fps.mp4", "local_source":"F-flight.mp4", "role":"通用飛行情境"},
+    {"id":"I", "title":"沙灘倒影與跑者", "author":"Pressmaster", "source":"https://www.pexels.com/video/a-man-running-on-the-beach-shoreline-3191899/", "license":"Pexels License", "license_url":"https://www.pexels.com/license/", "download_url":"https://videos.pexels.com/video-files/3191899/3191899-uhd_2560_1440_25fps.mp4", "local_source":"I-runner.mp4", "role":"通用海灘情境"},
+    {"id":"J", "title":"沖繩淺海與白沙", "author":"Kanenori", "source":"https://pixabay.com/videos/ocean-sea-sand-coral-reef-calm-226564/", "license":"Pixabay Content License", "license_url":"https://pixabay.com/service/license-summary/", "download_url":"https://cdn.pixabay.com/video/2024/08/15/226564_large.mp4", "local_source":"J-shallows.mp4", "role":"沖繩海景"}
+  ]
+}

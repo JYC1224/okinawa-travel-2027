@@ -1,0 +1,10 @@
+<svg class="opening-logo" xmlns="http://www.w3.org/2000/svg" viewBox="28 14 124 124" fill="none" aria-hidden="true" focusable="false">
+  <g stroke="currentColor" stroke-width="3.2" stroke-linejoin="miter" stroke-linecap="square">
+    <path d="M50 42V27H97 M122 36H139V76 M41 77V116H57 M72 124H129V109"/>
+    <path d="M34 49L117 20L146 103L62 132Z"/>
+    <path d="M56 51L115 44L122 103L63 109Z"/>
+    <path d="M56 51L77 60 M74 88L63 109 M102 94L122 103"/>
+    <path d="M77 60L105 66L102 94L74 88Z"/>
+    <path d="M86 71L95 74L93 83L84 80Z"/>
+  </g>
+</svg>

@@ -1,9 +1,9 @@
-/* Shared layout for the Day 2 and Day 3 itineraries. */
-:is(#day2,#day3){margin-top:48px}
-:is(#day2,#day3) .day-route{word-break:keep-all}
+/* Shared layout for the Day 2 and Day 4 itineraries. */
+:is(#day2,#day4){margin-top:48px}
+:is(#day2,#day4) .day-route{word-break:keep-all}
 #day2 .scene-strip{grid-template-columns:repeat(5,minmax(0,1fr))}
-:is(#day2,#day3) .daily-scene>.photo-frame{aspect-ratio:3/2;overflow:hidden}
-:is(#day2,#day3) .daily-scene>.photo-frame img{height:100%;object-fit:cover}
+:is(#day2,#day4) .daily-scene>.photo-frame{aspect-ratio:3/2;overflow:hidden}
+:is(#day2,#day4) .daily-scene>.photo-frame img{height:100%;object-fit:cover}
 #day2 .day2-schedule th small{display:block;line-height:1.5;color:var(--muted)}
 /* Day 2 font supplement. */
 @font-face{font-family:"Noto Sans TC";src:url("fonts/noto-sans-tc-day2.ttf?v=naha-day3-20261103") format("truetype");font-weight:100 900;font-style:normal;font-display:swap;unicode-range:U+304A,U+3053,U+3060,U+3061,U+3066,U+307E,U+3082,U+308D,U+4E45,U+4E86,U+4E92,U+4EA6,U+4EE3,U+4F34,U+4FD7,U+4FEE,U+50B3,U+514D,U+516B,U+5177,U+5283,U+52C9,U+52E2,U+5316,U+535A,U+5361,U+53E3,U+53F8,U+5439,U+5496,U+54C1,U+54E1,U+5561,U+559D,U+5668,U+5690,U+5708,U+5883,U+592A,U+5948,U+599D,U+5A66,U+5C31,U+5C3C,U+5C45,U+5DF7,U+5E03,U+5E73,U+5E7E,U+5F37,U+5F48,U+5FA9,U+5FAA,U+60C5,U+610F,U+614B,U+6230,U+6240,U+6307,U+63A1,U+6536,U+653F,U+6587,U+660E,U+66AB,U+66FE,U+66FF,U+670D,U+6731,U+676F,U+6771,U+6838,U+6848,U+696D,U+69AE,U+6A23,U+6B23,U+6B4C,U+6B72,U+6C11,U+6C42,U+6C7A,U+6C99,U+6CBB,U+6D17,U+6D41,U+6D66,U+6DFB,U+6E2F,U+6F01,U+6F38,U+706B,U+707D,U+71DF,U+74B0,U+753A,U+77ED,U+7919,U+7A05,U+7A84,U+7D30,U+7D44,U+7D71,U+7F85,U+8001,U+800C,U+805A,U+8208,U+8209,U+820D,U+822C,U+8336,U+840A,U+843D,U+85DD,U+85E5,U+8853,U+88E1,U+897F,U+898F,U+8A31,U+8A73,U+8B49,U+8C8C,U+8CA8,U+8CB7,U+8CBB,U+8CDE,U+8D85,U+8DA3,U+8EAB,U+8F14,U+9014,U+904D,U+90ED,U+9152,U+91CF,U+9592,U+964D,U+9678,U+968A,U+969C,U+96A8,U+96DC,U+9700,U+9808,U+98F2,U+98FE,U+99C1,U+9F13,U+FF5E}

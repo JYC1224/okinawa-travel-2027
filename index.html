@@ -4,24 +4,111 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1a1a1a">
-  <meta name="description" content="沖繩・海色與王城五日，2027年1月24日至28日親友私人旅行。團體資訊、參考航班、那霸四夜連泊，以及 Day 1 啟程、Day 2 南部海岸、Day 3 那霸文化、Day 4 北部海岸行程。">
+  <meta name="description" content="沖繩・海色與王城五日，2027年1月24日至28日親友私人旅行。團體資訊、參考航班、那霸四夜連泊，以及 Day 1 啟程、Day 2 南部海岸、Day 3 北部海岸、Day 4 那霸文化行程。">
   <title>沖繩・海色與王城五日｜碧海巡禮・琉球王國・那霸四夜連泊</title>
   <link rel="icon" href="data:,">
   <link rel="preload" href="assets/fonts/noto-sans-tc-subset.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/opening-island-hd.png" as="image">
   <link rel="stylesheet" href="assets/base.css">
   <link rel="stylesheet" href="assets/extension.css?v=senaga-landing">
-  <link rel="stylesheet" href="assets/day2.css?v=day3-gallery-20261104">
-  <link rel="stylesheet" href="assets/day4.css?v=3">
+  <link rel="stylesheet" href="assets/day2.css?v=day34-swap-20261109">
+  <link rel="stylesheet" href="assets/day4.css?v=day34-swap-20261109">
   <link rel="stylesheet" href="assets/disclosure.css?v=20261103">
   <link rel="stylesheet" href="assets/scroll-reveal.css?v=1">
   <link rel="stylesheet" href="assets/route-distance.css?v=4">
   <link rel="stylesheet" href="assets/highlights-video.css">
   <link rel="stylesheet" href="assets/dining.css?v=1">
+  <link rel="stylesheet" href="assets/hero-video.css?v=1">
+  <link rel="stylesheet" href="assets/opening.css?v=6">
+  <script src="assets/opening.js?v=2"></script>
   <script src="assets/site.js?v=south-20261103" defer></script>
   <script src="assets/scroll-reveal.js?v=5" defer></script>
   <script src="assets/highlights-video.js" defer></script>
+  <script src="assets/hero-video.js?v=3" defer></script>
 </head>
 <body>
+  <div class="opening-screen" id="opening-screen" hidden aria-hidden="true">
+    <svg class="opening-filters" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <defs>
+        <filter id="opening-icon-goya" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -0.54603854 -0.54603854 -0.54603854 0 1.63811563"/>
+          <feComponentTransfer><feFuncA type="linear" slope="1.02" intercept="-0.02"/></feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" result="keyed"/>
+          <feFlood flood-color="#54874f"/>
+          <feComposite in2="keyed" operator="in"/>
+        </filter>
+        <filter id="opening-icon-whale" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -0.69105691 -0.69105691 -0.69105691 0 2.07317073"/>
+          <feComponentTransfer><feFuncA type="linear" slope="1.02" intercept="-0.02"/></feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" result="keyed"/>
+          <feFlood flood-color="#3590c7"/>
+          <feComposite in2="keyed" operator="in"/>
+        </filter>
+        <filter id="opening-icon-shisa" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -0.50595238 -0.50595238 -0.50595238 0 1.51785714"/>
+          <feComponentTransfer><feFuncA type="linear" slope="1.02" intercept="-0.02"/></feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" result="keyed"/>
+          <feFlood flood-color="#8c4831"/>
+          <feComposite in2="keyed" operator="in"/>
+        </filter>
+        <filter id="opening-icon-hibiscus" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -0.74127907 -0.74127907 -0.74127907 0 2.22383721"/>
+          <feComponentTransfer><feFuncA type="linear" slope="1.02" intercept="-0.02"/></feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" result="keyed"/>
+          <feFlood flood-color="#ff4165"/>
+          <feComposite in2="keyed" operator="in"/>
+        </filter>
+        <filter id="opening-icon-pineapple" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -0.78220859 -0.78220859 -0.78220859 0 2.34662577"/>
+          <feComponentTransfer><feFuncA type="linear" slope="1.02" intercept="-0.02"/></feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" result="keyed"/>
+          <feFlood flood-color="#eccb00"/>
+          <feComposite in2="keyed" operator="in"/>
+        </filter>
+        <filter id="opening-icon-palm" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -0.52685950 -0.52685950 -0.52685950 0 1.58057851"/>
+          <feComponentTransfer><feFuncA type="linear" slope="1.02" intercept="-0.02"/></feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" result="keyed"/>
+          <feFlood flood-color="#a07900"/>
+          <feComposite in2="keyed" operator="in"/>
+        </filter>
+        <filter id="opening-gold-type" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  -1 -1 -1 0 3"/>
+          <feComponentTransfer><feFuncA type="gamma" amplitude="1" exponent="2" offset="0"/></feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" result="keyed"/>
+          <feFlood flood-color="#c8a977"/>
+          <feComposite in2="keyed" operator="in"/>
+        </filter>
+      </defs>
+    </svg>
+    <div class="opening-brand">
+      <div class="opening-mark"><svg class="opening-logo" xmlns="http://www.w3.org/2000/svg" viewBox="28 14 124 124" fill="none" aria-hidden="true" focusable="false">
+  <g stroke="currentColor" stroke-width="3.2" stroke-linejoin="miter" stroke-linecap="square">
+    <path d="M50 42V27H97 M122 36H139V76 M41 77V116H57 M72 124H129V109"/>
+    <path d="M34 49L117 20L146 103L62 132Z"/>
+    <path d="M56 51L115 44L122 103L63 109Z"/>
+    <path d="M56 51L77 60 M74 88L63 109 M102 94L122 103"/>
+    <path d="M77 60L105 66L102 94L74 88Z"/>
+    <path d="M86 71L95 74L93 83L84 80Z"/>
+  </g>
+</svg>
+</div>
+      <div class="opening-wordmark">
+        <p class="opening-name">沖繩紀事</p>
+        <p class="opening-caption">親友旅行手帖</p>
+      </div>
+    </div>
+    <div class="opening-island">
+      <!-- Use the high-resolution icon row with the existing clean lettering. -->
+      <img class="opening-island-icons" src="assets/opening-island-hd.png" width="2048" height="1229" alt="" decoding="async" style="--opening-icon-filter:url(#opening-icon-goya);--opening-icon-left:0%;--opening-icon-right:80%">
+      <img class="opening-island-icons" src="assets/opening-island-hd.png" width="2048" height="1229" alt="" decoding="async" style="--opening-icon-filter:url(#opening-icon-whale);--opening-icon-left:20%;--opening-icon-right:67%">
+      <img class="opening-island-icons" src="assets/opening-island-hd.png" width="2048" height="1229" alt="" decoding="async" style="--opening-icon-filter:url(#opening-icon-shisa);--opening-icon-left:33%;--opening-icon-right:52%">
+      <img class="opening-island-icons" src="assets/opening-island-hd.png" width="2048" height="1229" alt="" decoding="async" style="--opening-icon-filter:url(#opening-icon-hibiscus);--opening-icon-left:48%;--opening-icon-right:36%">
+      <img class="opening-island-icons" src="assets/opening-island-hd.png" width="2048" height="1229" alt="" decoding="async" style="--opening-icon-filter:url(#opening-icon-pineapple);--opening-icon-left:64%;--opening-icon-right:21%">
+      <img class="opening-island-icons" src="assets/opening-island-hd.png" width="2048" height="1229" alt="" decoding="async" style="--opening-icon-filter:url(#opening-icon-palm);--opening-icon-left:79%;--opening-icon-right:0%">
+      <img class="opening-island-type" src="assets/opening-island.png" width="612" height="367" alt="" decoding="async">
+    </div>
+  </div>
   <a class="skip-link" href="#journey">跳至旅程內容</a>
   <header class="site-header" id="top">
     <div class="header-inner">
@@ -34,18 +121,19 @@
     </nav>
   </header>
   <main>
-    <section class="hero" aria-labelledby="trip-title">
+    <section class="hero hero-cinema" aria-labelledby="trip-title">
       <picture class="hero-picture">
-        <source media="(max-width: 767px)" srcset="assets/images/hero-mobile.webp">
-        <img src="assets/images/hero-1920.webp" srcset="assets/images/hero-1280.webp 1280w, assets/images/hero-1920.webp 1920w, assets/images/hero-2560.webp 2560w" sizes="100vw" width="1920" height="505" alt="從古宇利島高處望向古宇利大橋與藍綠相間的海水" data-photo-id="kouri" fetchpriority="high">
+        <source media="(max-width: 767px)" srcset="assets/video/okinawa-hero-mobile-poster.webp">
+        <img src="assets/video/okinawa-hero-desktop-poster.webp" width="1920" height="1080" alt="沖繩跨海大橋與海岸風景" fetchpriority="high">
       </picture>
+      <video class="hero-film" id="hero-film" width="1920" height="1080" muted loop playsinline preload="none" aria-hidden="true" data-desktop="assets/video/okinawa-hero-desktop.mp4?v=short-20261109" data-mobile="assets/video/okinawa-hero-mobile.mp4?v=short-20261109"></video>
       <div class="hero-shade"></div>
       <div class="hero-copy">
         <h1 id="trip-title">沖繩・<span class="hero-title-rest">海色與王城五日</span></h1>
         <p class="hero-theme">碧海巡禮・琉球王國・那霸四夜連泊</p>
         <p class="hero-date"><time datetime="2027-01-24">2027.01.24 SUN</time> — <time datetime="2027-01-28">01.28 THU</time></p>
       </div>
-      <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:Kouri_Bridge_(15130568259).jpg" target="_blank" rel="noopener noreferrer">攝影 Takuya ASADA · CC BY 2.0</a>
+      <a class="hero-scroll" href="#journey"><span>向下閱讀</span><svg viewBox="0 0 18 10" aria-hidden="true"><path d="m1 1 8 7 8-7"/></svg></a>
     </section>
     <nav class="section-nav" aria-label="本頁章節">
       <div class="wide-container nav-inner">
@@ -154,9 +242,9 @@
                 <p class="route-distance-source">輪廓由使用者提供 · 道路資料 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap 貢獻者</a></p>
               </div>
             </div>
-            <div class="route-distance-body route-distance-north" id="day4-distance">
-              <svg class="route-distance-map" viewBox="8 20 533 575" role="img" aria-labelledby="day4-map-title">
-                <title id="day4-map-title">沖繩北部包車路線示意圖，從阿蒙特飯店出發，經萬座毛、古宇利島、美麗海水族館及北谷美國村後返回飯店。</title>
+            <div class="route-distance-body route-distance-north" id="day3-distance">
+              <svg class="route-distance-map" viewBox="8 20 533 575" role="img" aria-labelledby="day3-map-title">
+                <title id="day3-map-title">沖繩北部包車路線示意圖，從阿蒙特飯店出發，經萬座毛、古宇利島、美麗海水族館及北谷美國村後返回飯店。</title>
                 <image href="assets/maps/okinawa-outline.png" width="612" height="612"/>
                 <polyline class="route-map-road" points="134,494.4 151.5,500.4 160.4,499.3 161.7,493.9 170.4,490.9 172.5,472 187.3,459.4 195.7,443.7 199,431.1 192.5,408.1 199.5,403.2 204.3,387.2 211.2,377.2 213.5,363.9 204.7,345.3 209.3,336.1 224.1,327.1 227.3,307.5 224.1,299 227.4,288.5 233.3,292.5 240,287.1 249.7,289.2 253,281.8 261.3,277.3 267.4,279 276.8,264.7 283.4,265 289.2,258.1 294.8,261 297.1,253.8 307.9,244.1 316,229.1 315.3,214.7 337.3,196.8 335.9,187 320.6,176.8 328.3,155.5 321.8,170.7 315.7,175.9 305.7,172.5 292,154.7 280.7,151.8 259,156.9 249.7,163.7 243.1,160.2 242.2,165.4 250.4,172.1 250.6,180.3 244,187.5 253.7,218 264.1,221.1 271.4,215.2 295.7,221.9 306.4,229.5 304.4,244.4 295.5,260.4 289.6,262.9 302.6,269 307.1,288.8 302.9,294 291.2,296.8 274.7,312.1 255.3,318.6 244.4,316.3 231,318.1 221.6,330.4 209.1,336.4 204.6,347.8 213.6,363.8 211.1,377.9 204.6,386.7 199.1,403.8 177,420.1 181.4,425.6 179.3,436.6 160.7,450.9 160.8,455.5 154,456.4 138.9,476.3 134,494.4"/>
                 <path class="route-map-leaders" d="M243.1 160.2L219 142H88 M328.3 155.5L346 138H397 M227.4 288.5L203 282H126 M177 420.1L148 407H18 M134 494.4L109 515H14"/>
@@ -177,7 +265,7 @@
                 </g>
               </svg>
               <div class="route-distance-copy">
-                <p class="route-distance-day">Day 4・北部包車</p>
+                <p class="route-distance-day">Day 3・北部包車</p>
                 <ol class="route-distance-legs" aria-label="各段預估行車距離">
               <li><span>阿蒙特飯店－萬座毛</span><span>46.5 km</span></li>
               <li><span>萬座毛－古宇利島</span><span>39.5 km</span></li>
@@ -445,60 +533,13 @@
         <div class="day-backdrop" aria-hidden="true"></div>
         <header class="day-heading wide-container">
           <div class="day-order">Day 3 <time datetime="2027-01-26">2027.01.26<span>星期二</span></time></div>
-          <h3 id="day3-title">琉球王國・那霸文化與街巷風情</h3>
-          <p class="day-route">阿蒙特飯店 <span>—</span> 首里城 <span>—</span> 歌町午餐 <span>—</span> 沖繩縣立博物館常設展 <span>—</span> 歌町新都心商圈 <span>—</span> 榮町市場 <span>—</span> 阿蒙特飯店</p>
-        </header>
-        <div class="day-intro editorial-container"><p>上午到首里城，從城門、石牆與宮殿認識琉球王國。午餐後走進沖繩縣立博物館，沿常設展看看這些島嶼的自然環境、往來歷史與生活工藝。午後把時間留給歌町新都心，各自逛街或喝杯咖啡，再搭一站單軌到安里，在榮町的老市場街巷裡找一處坐下吃晚餐。</p></div>
-        <div class="daily-scenes wide-container">
-          <div class="scene-controls"><p>那霸城郭・新都心與市場街巷</p><span class="scene-controls-buttons"><button type="button" data-slide="prev" aria-label="上一張景點照片">←</button><span class="scene-count" aria-live="polite">1 / 4</span><button type="button" data-slide="next" aria-label="下一張景點照片">→</button></span></div>
-          <div class="scene-strip" tabindex="0" role="region" aria-label="Day 3 沿途照片，可左右捲動">
-            <figure class="daily-scene"><picture class="photo-frame p-shuri-gate"><img src="assets/images/shuri-gate-640.webp" srcset="assets/images/shuri-gate-640.webp 640w, assets/images/shuri-gate-1280.webp 1280w, assets/images/shuri-gate-1920.webp 1920w" sizes="(max-width:767px) 82vw, 289px" width="640" height="480" alt="綠樹與石牆之間，紅色雙層屋簷的首里城守禮門正面" loading="lazy" decoding="async" data-photo-id="shuri-gate"></picture><figcaption><h4>首里城公園</h4><p>首里城曾是琉球王國的政治與文化中心。從守禮門走向依地勢修築的城牆，可循城門與朱紅宮殿的布局，認識王國接待使節、舉行典禮的空間。火災後的復原延續了琉球建築的工藝，也為這座城添上一段新的歷史。體力許可時，可在園區高處望向那霸市街。</p><small><a href="https://commons.wikimedia.org/wiki/File:Shurei-mon_2023.jpg" target="_blank" rel="noopener noreferrer">Renate Hano</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></small></figcaption></figure>
-            <figure class="daily-scene"><picture class="photo-frame p-okinawa-museum"><img src="assets/images/okinawa-museum-640.webp" srcset="assets/images/okinawa-museum-640.webp 640w, assets/images/okinawa-museum-1280.webp 1280w, assets/images/okinawa-museum-1920.webp 1920w" sizes="(max-width:767px) 82vw, 289px" width="640" height="427" alt="從草坪望向沖繩縣立博物館・美術館的淺色城牆造型外觀" loading="lazy" decoding="async" data-photo-id="okinawa-museum"></picture><figcaption><h4>沖繩縣立博物館・美術館</h4><p>下午參觀博物館常設展。從島嶼地理與生態、琉球的海上交流，到工藝、民俗與戰後生活，展覽把上午在城郭裡看見的歷史，接回沖繩群島的日常。</p><small><a href="https://commons.wikimedia.org/wiki/File:Okinawa_Prefectural_Museum_%26_Art_Museum02bss3200.jpg" target="_blank" rel="noopener noreferrer">663highland</a> · <a href="https://creativecommons.org/licenses/by/2.5" target="_blank" rel="noopener noreferrer">CC BY 2.5</a></small></figcaption></figure>
-            <figure class="daily-scene"><picture class="photo-frame p-omoromachi-main-place"><img src="assets/images/omoromachi-main-place-640.webp" srcset="assets/images/omoromachi-main-place-640.webp 640w, assets/images/omoromachi-main-place-1280.webp 1280w, assets/images/omoromachi-main-place-1920.webp 1920w" sizes="(max-width:767px) 82vw, 289px" width="640" height="267" alt="那霸新都心 San-A Naha Main Place 購物中心的外觀" loading="lazy" decoding="async" data-photo-id="omoromachi-main-place"></picture><figcaption><h4>歌町新都心商圈・自由購物與休閒</h4><p>不同於國際通沿街的伴手禮店，新都心多了現代商場和日常採買的去處。San-A Naha Main Place 集合服飾、超市、生活用品、電器及餐飲；也可到周邊逛藥妝和雜貨，或找間咖啡店休息。</p><small><a href="https://commons.wikimedia.org/wiki/File:San-A_Naha_Main_Place_20250505161500.jpg" target="_blank" rel="noopener noreferrer">TurnOnTheNight</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></small></figcaption></figure>
-            <figure class="daily-scene"><picture class="photo-frame p-sakaemachi-lanterns-user"><img src="assets/images/sakaemachi-lanterns-user.png" srcset="assets/images/sakaemachi-lanterns-user.png 2048w" sizes="(max-width:767px) 82vw, 289px" width="2048" height="1365" alt="榮町市場拱形棚頂下的巷弄，店門前掛著暖黃色與彩色燈籠" loading="lazy" decoding="async" data-photo-id="sakaemachi-lanterns-user"></picture><figcaption><h4>榮町市場</h4><p>榮町的窄巷白天是居民採買的市場，入夜後，小餐館和居酒屋陸續亮燈。到周邊找間座位舒適、候位不久的店，吃沖繩料理或日式晚餐，餐後依步調散步。</p><small>使用者提供</small></figcaption></figure>
-          </div>
-        </div>
-        <div class="wide-container day-detail">
-          <div class="daily-summary">
-            <dl><dt>餐食</dt><dd>早餐：自理，或依實際住宿方案安排<br>午餐：歌町新都心周邊自由選擇，敬請自理<br>晚餐：榮町市場周邊自由選擇，敬請自理</dd></dl>
-            <dl><dt>住宿</dt><dd>那霸縣廳前阿蒙特飯店<br><span class="hotel-english">Almont Hotel Naha-Kenchomae</span><br>四夜連泊・第 3 晚</dd></dl>
-            <dl><dt>交通</dt><dd>沖繩都市單軌電車（Yui Rail）為主<br>必要時搭 Uber 或一般計程車<br>本日無私人包車</dd></dl>
-          </div>
-          <details class="day-arrangements" id="day3-arrangements">
-            <summary><span class="arrangement-title" id="day3-schedule-title">當日安排</span><span class="arrangement-action"><span class="arrangement-show">查看詳細安排</span><span class="arrangement-hide">收合詳細安排</span></span></summary>
-            <div class="arrangement-content">
-              <p class="arrangement-intro">以下時間供行程規劃參考，依候車、步行與用餐情況彈性調整。</p>
-              <table class="schedule" aria-labelledby="day3-schedule-title">
-                <thead><tr><th scope="col">參考時間</th><th scope="col">行程安排</th><th scope="col">移動與停留</th></tr></thead>
-                <tbody>
-                  <tr><th scope="row"><time datetime="2027-01-26T08:30:00+09:00">08:30</time><span>—</span><time datetime="2027-01-26T09:20:00+09:00">09:20</time></th><td><strong>飯店出發，搭單軌前往首里</strong></td><td>由縣廳前站搭往 Tedako-Uranishi（てだこ浦西）方向，於首里站下車。城區有坡道，由首里站前往首里城，視同行長輩需求安排短程計程車接駁。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-26T09:20:00+09:00">09:20</time><span>—</span><time datetime="2027-01-26T11:40:00+09:00">11:40</time></th><td><strong>首里城參觀</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Shurijo+Castle+Park+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看首里城參觀">地圖 ↗</a></td><td>沿守禮門、城郭與園區景觀參觀，依當天體力調整步行距離。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-26T11:40:00+09:00">11:40</time><span>—</span><time datetime="2027-01-26T12:20:00+09:00">12:20</time></th><td><strong>前往歌町新都心</strong></td><td>回到首里站後，搭往那霸空港方向，在歌町站（おもろまち）下車。歌町站至博物館及商圈可依體力安排步行或短程計程車。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-26T12:20:00+09:00">12:20</time><span>—</span><time datetime="2027-01-26T13:20:00+09:00">13:20</time></th><td><strong>歌町周邊午餐</strong></td><td>餐廳尚未選定，在歌町新都心周邊自由選擇。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-26T13:30:00+09:00">13:30</time><span>—</span><time datetime="2027-01-26T15:15:00+09:00">15:15</time></th><td><strong>沖繩縣立博物館常設展</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Okinawa+Prefectural+Museum+and+Art+Museum+Naha" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看沖繩縣立博物館常設展">地圖 ↗</a></td><td>以博物館常設展為主，可依興趣選看自然、歷史與民俗展區。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-26T15:15:00+09:00">15:15</time><span>—</span><time datetime="2027-01-26T18:30:00+09:00">18:30</time></th><td><strong>歌町新都心商圈・自由購物與休閒</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Omoromachi+Shintoshin+Naha+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看歌町新都心商圈・自由購物與休閒">地圖 ↗</a></td><td>商場、周邊商店及咖啡店均可自由選擇，分組活動前先約好集合地點。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-26T18:30:00+09:00">18:30</time><span>—</span><time datetime="2027-01-26T19:00:00+09:00">19:00</time></th><td><strong>前往安里站及榮町市場</strong></td><td>從歌町站往那霸空港方向搭一站至安里，出站後步行前往榮町市場。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-26T19:00:00+09:00">19:00</time><span>—</span><time datetime="2027-01-26T20:30:00+09:00">20:30</time></th><td><strong>榮町市場周邊晚餐、散步</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Sakaemachi+Market+Naha" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看榮町市場周邊晚餐、散步">地圖 ↗</a></td><td>晚餐餐廳尚未選定，視店家營業與候位情形選擇，優先考量座位及進出動線。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-26T20:30:00+09:00">20:30</time><small>後</small></th><td><strong>返回飯店或自由活動</strong></td><td>由安里站往那霸空港方向至縣廳前站，再返回飯店；亦可視體力分乘計程車。</td></tr>
-                </tbody>
-              </table>
-              <p class="schedule-note">八人同行可視需求分乘計程車。首里城園區有坡道，長輩可縮短步行距離，並先約好會合位置。<br><a class="map-link" href="https://yui-rail.co.jp/en/" target="_blank" rel="noopener noreferrer">Yui Rail 官方路線 ↗</a></p>
-            </div>
-          </details>
-        </div>
-      </article>
-
-      <article class="itinerary-day" id="day4" data-day="4" data-date="01.27" aria-labelledby="day4-title">
-        <div class="day-backdrop" aria-hidden="true"></div>
-        <header class="day-heading wide-container">
-          <div class="day-order">Day 4 <time datetime="2027-01-27">2027.01.27<span>星期三</span></time></div>
-          <h3 id="day4-title">北部海岸巡禮・古宇利島與黑潮之海</h3>
+          <h3 id="day3-title">北部海岸巡禮・古宇利島與黑潮之海</h3>
           <p class="day-route">阿蒙特飯店 <span>—</span> 萬座毛 <span>—</span> 古宇利島 <span>—</span> 古宇利島周邊午餐 <span>—</span> 沖繩美麗海水族館 <span>—</span> 北谷美國村 <span>—</span> 阿蒙特飯店</p>
         </header>
         <div class="day-intro editorial-container"><p>從那霸沿西海岸往北，先在萬座毛的石灰岩海岬望向東海，再穿越古宇利大橋，在島岸看淺灘與外海的藍綠層次。午餐留在古宇利島周邊自由選擇，午後走進美麗海水族館，從珊瑚礁一路看到黑潮之海。回程在北谷美國村留一段海邊散步的時間，返抵飯店後，再依各自步調用餐、逛街或休息。</p></div>
         <div class="daily-scenes editorial-container">
           <div class="scene-controls"><p>沖繩北岸・沿途風景</p><span class="scene-controls-buttons"><button type="button" data-slide="prev" aria-label="上一張景點照片">←</button><span class="scene-count" aria-live="polite">1 / 4</span><button type="button" data-slide="next" aria-label="下一張景點照片">→</button></span></div>
-          <div class="scene-strip" tabindex="0" role="region" aria-label="Day 4 四個主要景點，可左右捲動">
+          <div class="scene-strip" tabindex="0" role="region" aria-label="Day 3 四個主要景點，可左右捲動">
             <figure class="daily-scene">
               <picture class="photo-frame p-manzamo"><img src="assets/images/manzamo-640.webp" srcset="assets/images/manzamo-640.webp 640w, assets/images/manzamo-1280.webp 1280w, assets/images/manzamo-1920.webp 1920w" sizes="(max-width:767px) 82vw, 365px" width="640" height="427" alt="萬座毛象鼻形石灰岩斷崖與拍向岸邊的浪花" loading="lazy" decoding="async" data-photo-id="manzamo"></picture>
               <figcaption><h4>恩納村・萬座毛</h4><p>走到海岸草地盡頭，琉球石灰岩在海面上勾出象鼻般的輪廓。沿主要觀景處看東海與斷崖，留約 25 分鐘拍照與集合。</p><small>Photo by <a href="https://commons.wikimedia.org/wiki/File:Onna_Okinawa_Japan_Cape-Manzamo-01.jpg" target="_blank" rel="noopener noreferrer">CEphoto, Uwe Aranas</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a></small></figcaption>
@@ -523,29 +564,76 @@
         <div class="wide-container day-detail">
           <div class="daily-summary">
             <dl><dt>餐食</dt><dd>早餐：自理，或依實際住宿方案安排<br>午餐：古宇利島周邊自由選擇，敬請自理<br>晚餐：那霸市區或國際通周邊自由選擇，敬請自理</dd></dl>
-            <dl><dt>住宿</dt><dd>那霸縣廳前阿蒙特飯店<br><span class="hotel-english">Almont Hotel Naha-Kenchomae</span><br>四夜連泊・第 4 晚</dd></dl>
+            <dl><dt>住宿</dt><dd>那霸縣廳前阿蒙特飯店<br><span class="hotel-english">Almont Hotel Naha-Kenchomae</span><br>四夜連泊・第 3 晚</dd></dl>
             <dl><dt>包車</dt><dd>私人包車 10 小時，暫定 08:00–18:00<br>服務至返回飯店為止<br>晚餐與夜間活動自由安排</dd></dl>
+          </div>
+          <details class="day-arrangements" id="day3-arrangements">
+            <summary><span class="arrangement-title" id="day3-schedule-title">當日安排</span><span class="arrangement-action"><span class="arrangement-show">查看詳細安排</span><span class="arrangement-hide">收合詳細安排</span></span></summary>
+            <div class="arrangement-content">
+              <p class="arrangement-intro">以下時間均為暫定，尚未經包車司機確認。</p>
+              <table class="schedule" aria-labelledby="day3-schedule-title">
+                <thead><tr><th scope="col">參考時間</th><th scope="col">行程安排</th><th scope="col">移動與停留</th></tr></thead>
+                <tbody>
+                  <tr><th scope="row"><time datetime="2027-01-26T08:00:00+09:00">08:00</time><span>—</span><time datetime="2027-01-26T09:10:00+09:00">09:10</time></th><td><strong>阿蒙特飯店出發，前往萬座毛</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Almont+Hotel+Naha-Kenchomae" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看阿蒙特飯店出發，前往萬座毛">地圖 ↗</a></td><td>從那霸出發，沿西海岸北上。出發前確認全員與隨身物品。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T09:10:00+09:00">09:10</time><span>—</span><time datetime="2027-01-26T09:35:00+09:00">09:35</time></th><td><strong>萬座毛參觀、海岸觀景</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Cape+Manzamo+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看萬座毛參觀、海岸觀景">地圖 ↗</a></td><td>約 25 分鐘，以主要觀景處與拍照為主，依海風與同行者體力調整步行距離。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T09:35:00+09:00">09:35</time><span>—</span><time datetime="2027-01-26T10:45:00+09:00">10:45</time></th><td><strong>前往古宇利島</strong></td><td>沿北部道路前往屋我地島，搭車穿越古宇利大橋。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T10:45:00+09:00">10:45</time><span>—</span><time datetime="2027-01-26T11:15:00+09:00">11:15</time></th><td><strong>古宇利大橋、古宇利島</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Kouri+Beach+Nakijin+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看古宇利大橋、古宇利島">地圖 ↗</a></td><td>約 30 分鐘，在橋畔與近岸短暫看海、拍照，依體力選擇步行距離。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T11:15:00+09:00">11:15</time><span>—</span><time datetime="2027-01-26T12:00:00+09:00">12:00</time></th><td><strong>古宇利島周邊午餐</strong></td><td>餐廳尚未選定，可品嚐沖繩在地料理或自由選擇餐點。八人同行，依座位與出餐情況彈性調整。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T12:00:00+09:00">12:00</time><span>—</span><time datetime="2027-01-26T12:35:00+09:00">12:35</time></th><td><strong>前往美麗海水族館</strong></td><td>由古宇利島周邊前往本部町，預留上下車與集合時間。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T12:35:00+09:00">12:35</time><span>—</span><time datetime="2027-01-26T14:45:00+09:00">14:45</time></th><td><strong>沖繩美麗海水族館參觀</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Okinawa+Churaumi+Aquarium" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看沖繩美麗海水族館參觀">地圖 ↗</a></td><td>約 2 小時 10 分鐘，以珊瑚礁、熱帶魚與黑潮之海等館內展區為主。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T14:45:00+09:00">14:45</time><span>—</span><time datetime="2027-01-26T16:25:00+09:00">16:25</time></th><td><strong>前往北谷美國村</strong></td><td>從本部町南下，抵達時間依道路及停車情況調整。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T16:25:00+09:00">16:25</time><span>—</span><time datetime="2027-01-26T17:20:00+09:00">17:20</time></th><td><strong>北谷美國村自由參觀</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Mihama+American+Village+Chatan+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看北谷美國村自由參觀">地圖 ↗</a></td><td>可在 Depot Island 一帶散步、拍照或逛特色商店。停留時間視前段行程與交通彈性調整。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-26T17:20:00+09:00">17:20</time><span>—</span><time datetime="2027-01-26T18:00:00+09:00">18:00</time></th><td><strong>返回那霸阿蒙特飯店</strong></td><td>預計約 18:00 返抵，包車至飯店為止。晚餐、國際通購物與休息依個人步調安排。</td></tr>
+                </tbody>
+              </table>
+              <p class="schedule-note">同行八人，包含 80 歲以上長輩，步行可依體力縮短並預留休息與集合時間。實際行程視交通、用餐與停車狀況調整，北谷美國村停留時間可彈性縮短。返回飯店後的晚餐及夜間活動不包含在包車行程中。</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <article class="itinerary-day" id="day4" data-day="4" data-date="01.27" aria-labelledby="day4-title">
+        <div class="day-backdrop" aria-hidden="true"></div>
+        <header class="day-heading wide-container">
+          <div class="day-order">Day 4 <time datetime="2027-01-27">2027.01.27<span>星期三</span></time></div>
+          <h3 id="day4-title">琉球王國・那霸文化與街巷風情</h3>
+          <p class="day-route">阿蒙特飯店 <span>—</span> 首里城 <span>—</span> 歌町午餐 <span>—</span> 沖繩縣立博物館常設展 <span>—</span> 歌町新都心商圈 <span>—</span> 榮町市場 <span>—</span> 阿蒙特飯店</p>
+        </header>
+        <div class="day-intro editorial-container"><p>上午到首里城，從城門、石牆與宮殿認識琉球王國。午餐後走進沖繩縣立博物館，沿常設展看看這些島嶼的自然環境、往來歷史與生活工藝。午後把時間留給歌町新都心，各自逛街或喝杯咖啡，再搭一站單軌到安里，在榮町的老市場街巷裡找一處坐下吃晚餐。</p></div>
+        <div class="daily-scenes wide-container">
+          <div class="scene-controls"><p>那霸城郭・新都心與市場街巷</p><span class="scene-controls-buttons"><button type="button" data-slide="prev" aria-label="上一張景點照片">←</button><span class="scene-count" aria-live="polite">1 / 4</span><button type="button" data-slide="next" aria-label="下一張景點照片">→</button></span></div>
+          <div class="scene-strip" tabindex="0" role="region" aria-label="Day 4 沿途照片，可左右捲動">
+            <figure class="daily-scene"><picture class="photo-frame p-shuri-gate"><img src="assets/images/shuri-gate-640.webp" srcset="assets/images/shuri-gate-640.webp 640w, assets/images/shuri-gate-1280.webp 1280w, assets/images/shuri-gate-1920.webp 1920w" sizes="(max-width:767px) 82vw, 289px" width="640" height="480" alt="綠樹與石牆之間，紅色雙層屋簷的首里城守禮門正面" loading="lazy" decoding="async" data-photo-id="shuri-gate"></picture><figcaption><h4>首里城公園</h4><p>首里城曾是琉球王國的政治與文化中心。從守禮門走向依地勢修築的城牆，可循城門與朱紅宮殿的布局，認識王國接待使節、舉行典禮的空間。火災後的復原延續了琉球建築的工藝，也為這座城添上一段新的歷史。體力許可時，可在園區高處望向那霸市街。</p><small><a href="https://commons.wikimedia.org/wiki/File:Shurei-mon_2023.jpg" target="_blank" rel="noopener noreferrer">Renate Hano</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></small></figcaption></figure>
+            <figure class="daily-scene"><picture class="photo-frame p-okinawa-museum"><img src="assets/images/okinawa-museum-640.webp" srcset="assets/images/okinawa-museum-640.webp 640w, assets/images/okinawa-museum-1280.webp 1280w, assets/images/okinawa-museum-1920.webp 1920w" sizes="(max-width:767px) 82vw, 289px" width="640" height="427" alt="從草坪望向沖繩縣立博物館・美術館的淺色城牆造型外觀" loading="lazy" decoding="async" data-photo-id="okinawa-museum"></picture><figcaption><h4>沖繩縣立博物館・美術館</h4><p>下午參觀博物館常設展。從島嶼地理與生態、琉球的海上交流，到工藝、民俗與戰後生活，展覽把上午在城郭裡看見的歷史，接回沖繩群島的日常。</p><small><a href="https://commons.wikimedia.org/wiki/File:Okinawa_Prefectural_Museum_%26_Art_Museum02bss3200.jpg" target="_blank" rel="noopener noreferrer">663highland</a> · <a href="https://creativecommons.org/licenses/by/2.5" target="_blank" rel="noopener noreferrer">CC BY 2.5</a></small></figcaption></figure>
+            <figure class="daily-scene"><picture class="photo-frame p-omoromachi-main-place"><img src="assets/images/omoromachi-main-place-640.webp" srcset="assets/images/omoromachi-main-place-640.webp 640w, assets/images/omoromachi-main-place-1280.webp 1280w, assets/images/omoromachi-main-place-1920.webp 1920w" sizes="(max-width:767px) 82vw, 289px" width="640" height="267" alt="那霸新都心 San-A Naha Main Place 購物中心的外觀" loading="lazy" decoding="async" data-photo-id="omoromachi-main-place"></picture><figcaption><h4>歌町新都心商圈・自由購物與休閒</h4><p>不同於國際通沿街的伴手禮店，新都心多了現代商場和日常採買的去處。San-A Naha Main Place 集合服飾、超市、生活用品、電器及餐飲；也可到周邊逛藥妝和雜貨，或找間咖啡店休息。</p><small><a href="https://commons.wikimedia.org/wiki/File:San-A_Naha_Main_Place_20250505161500.jpg" target="_blank" rel="noopener noreferrer">TurnOnTheNight</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></small></figcaption></figure>
+            <figure class="daily-scene"><picture class="photo-frame p-sakaemachi-lanterns-user"><img src="assets/images/sakaemachi-lanterns-user.png" srcset="assets/images/sakaemachi-lanterns-user.png 2048w" sizes="(max-width:767px) 82vw, 289px" width="2048" height="1365" alt="榮町市場拱形棚頂下的巷弄，店門前掛著暖黃色與彩色燈籠" loading="lazy" decoding="async" data-photo-id="sakaemachi-lanterns-user"></picture><figcaption><h4>榮町市場</h4><p>榮町的窄巷白天是居民採買的市場，入夜後，小餐館和居酒屋陸續亮燈。到周邊找間座位舒適、候位不久的店，吃沖繩料理或日式晚餐，餐後依步調散步。</p><small>使用者提供</small></figcaption></figure>
+          </div>
+        </div>
+        <div class="wide-container day-detail">
+          <div class="daily-summary">
+            <dl><dt>餐食</dt><dd>早餐：自理，或依實際住宿方案安排<br>午餐：歌町新都心周邊自由選擇，敬請自理<br>晚餐：榮町市場周邊自由選擇，敬請自理</dd></dl>
+            <dl><dt>住宿</dt><dd>那霸縣廳前阿蒙特飯店<br><span class="hotel-english">Almont Hotel Naha-Kenchomae</span><br>四夜連泊・第 4 晚</dd></dl>
+            <dl><dt>交通</dt><dd>沖繩都市單軌電車（Yui Rail）為主<br>必要時搭 Uber 或一般計程車<br>本日無私人包車</dd></dl>
           </div>
           <details class="day-arrangements" id="day4-arrangements">
             <summary><span class="arrangement-title" id="day4-schedule-title">當日安排</span><span class="arrangement-action"><span class="arrangement-show">查看詳細安排</span><span class="arrangement-hide">收合詳細安排</span></span></summary>
             <div class="arrangement-content">
-              <p class="arrangement-intro">以下時間均為暫定，尚未經包車司機確認。</p>
+              <p class="arrangement-intro">以下時間供行程規劃參考，依候車、步行與用餐情況彈性調整。</p>
               <table class="schedule" aria-labelledby="day4-schedule-title">
                 <thead><tr><th scope="col">參考時間</th><th scope="col">行程安排</th><th scope="col">移動與停留</th></tr></thead>
                 <tbody>
-                  <tr><th scope="row"><time datetime="2027-01-27T08:00:00+09:00">08:00</time><span>—</span><time datetime="2027-01-27T09:10:00+09:00">09:10</time></th><td><strong>阿蒙特飯店出發，前往萬座毛</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Almont+Hotel+Naha-Kenchomae" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看阿蒙特飯店出發，前往萬座毛">地圖 ↗</a></td><td>從那霸出發，沿西海岸北上。出發前確認全員與隨身物品。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T09:10:00+09:00">09:10</time><span>—</span><time datetime="2027-01-27T09:35:00+09:00">09:35</time></th><td><strong>萬座毛參觀、海岸觀景</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Cape+Manzamo+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看萬座毛參觀、海岸觀景">地圖 ↗</a></td><td>約 25 分鐘，以主要觀景處與拍照為主，依海風與同行者體力調整步行距離。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T09:35:00+09:00">09:35</time><span>—</span><time datetime="2027-01-27T10:45:00+09:00">10:45</time></th><td><strong>前往古宇利島</strong></td><td>沿北部道路前往屋我地島，搭車穿越古宇利大橋。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T10:45:00+09:00">10:45</time><span>—</span><time datetime="2027-01-27T11:15:00+09:00">11:15</time></th><td><strong>古宇利大橋、古宇利島</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Kouri+Beach+Nakijin+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看古宇利大橋、古宇利島">地圖 ↗</a></td><td>約 30 分鐘，在橋畔與近岸短暫看海、拍照，依體力選擇步行距離。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T11:15:00+09:00">11:15</time><span>—</span><time datetime="2027-01-27T12:00:00+09:00">12:00</time></th><td><strong>古宇利島周邊午餐</strong></td><td>餐廳尚未選定，可品嚐沖繩在地料理或自由選擇餐點。八人同行，依座位與出餐情況彈性調整。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T12:00:00+09:00">12:00</time><span>—</span><time datetime="2027-01-27T12:35:00+09:00">12:35</time></th><td><strong>前往美麗海水族館</strong></td><td>由古宇利島周邊前往本部町，預留上下車與集合時間。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T12:35:00+09:00">12:35</time><span>—</span><time datetime="2027-01-27T14:45:00+09:00">14:45</time></th><td><strong>沖繩美麗海水族館參觀</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Okinawa+Churaumi+Aquarium" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看沖繩美麗海水族館參觀">地圖 ↗</a></td><td>約 2 小時 10 分鐘，以珊瑚礁、熱帶魚與黑潮之海等館內展區為主。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T14:45:00+09:00">14:45</time><span>—</span><time datetime="2027-01-27T16:25:00+09:00">16:25</time></th><td><strong>前往北谷美國村</strong></td><td>從本部町南下，抵達時間依道路及停車情況調整。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T16:25:00+09:00">16:25</time><span>—</span><time datetime="2027-01-27T17:20:00+09:00">17:20</time></th><td><strong>北谷美國村自由參觀</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Mihama+American+Village+Chatan+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看北谷美國村自由參觀">地圖 ↗</a></td><td>可在 Depot Island 一帶散步、拍照或逛特色商店。停留時間視前段行程與交通彈性調整。</td></tr>
-                  <tr><th scope="row"><time datetime="2027-01-27T17:20:00+09:00">17:20</time><span>—</span><time datetime="2027-01-27T18:00:00+09:00">18:00</time></th><td><strong>返回那霸阿蒙特飯店</strong></td><td>預計約 18:00 返抵，包車至飯店為止。晚餐、國際通購物與休息依個人步調安排。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T08:30:00+09:00">08:30</time><span>—</span><time datetime="2027-01-27T09:20:00+09:00">09:20</time></th><td><strong>飯店出發，搭單軌前往首里</strong></td><td>由縣廳前站搭往 Tedako-Uranishi（てだこ浦西）方向，於首里站下車。城區有坡道，由首里站前往首里城，視同行長輩需求安排短程計程車接駁。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T09:20:00+09:00">09:20</time><span>—</span><time datetime="2027-01-27T11:40:00+09:00">11:40</time></th><td><strong>首里城參觀</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Shurijo+Castle+Park+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看首里城參觀">地圖 ↗</a></td><td>沿守禮門、城郭與園區景觀參觀，依當天體力調整步行距離。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T11:40:00+09:00">11:40</time><span>—</span><time datetime="2027-01-27T12:20:00+09:00">12:20</time></th><td><strong>前往歌町新都心</strong></td><td>回到首里站後，搭往那霸空港方向，在歌町站（おもろまち）下車。歌町站至博物館及商圈可依體力安排步行或短程計程車。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T12:20:00+09:00">12:20</time><span>—</span><time datetime="2027-01-27T13:20:00+09:00">13:20</time></th><td><strong>歌町周邊午餐</strong></td><td>餐廳尚未選定，在歌町新都心周邊自由選擇。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T13:30:00+09:00">13:30</time><span>—</span><time datetime="2027-01-27T15:15:00+09:00">15:15</time></th><td><strong>沖繩縣立博物館常設展</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Okinawa+Prefectural+Museum+and+Art+Museum+Naha" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看沖繩縣立博物館常設展">地圖 ↗</a></td><td>以博物館常設展為主，可依興趣選看自然、歷史與民俗展區。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T15:15:00+09:00">15:15</time><span>—</span><time datetime="2027-01-27T18:30:00+09:00">18:30</time></th><td><strong>歌町新都心商圈・自由購物與休閒</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Omoromachi+Shintoshin+Naha+Okinawa" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看歌町新都心商圈・自由購物與休閒">地圖 ↗</a></td><td>商場、周邊商店及咖啡店均可自由選擇，分組活動前先約好集合地點。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T18:30:00+09:00">18:30</time><span>—</span><time datetime="2027-01-27T19:00:00+09:00">19:00</time></th><td><strong>前往安里站及榮町市場</strong></td><td>從歌町站往那霸空港方向搭一站至安里，出站後步行前往榮町市場。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T19:00:00+09:00">19:00</time><span>—</span><time datetime="2027-01-27T20:30:00+09:00">20:30</time></th><td><strong>榮町市場周邊晚餐、散步</strong><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Sakaemachi+Market+Naha" target="_blank" rel="noopener noreferrer" aria-label="在 Google Maps 查看榮町市場周邊晚餐、散步">地圖 ↗</a></td><td>晚餐餐廳尚未選定，視店家營業與候位情形選擇，優先考量座位及進出動線。</td></tr>
+                  <tr><th scope="row"><time datetime="2027-01-27T20:30:00+09:00">20:30</time><small>後</small></th><td><strong>返回飯店或自由活動</strong></td><td>由安里站往那霸空港方向至縣廳前站，再返回飯店；亦可視體力分乘計程車。</td></tr>
                 </tbody>
               </table>
-              <p class="schedule-note">同行八人，包含 80 歲以上長輩，步行可依體力縮短並預留休息與集合時間。實際行程視交通、用餐與停車狀況調整，北谷美國村停留時間可彈性縮短。返回飯店後的晚餐及夜間活動不包含在包車行程中。</p>
+              <p class="schedule-note">八人同行可視需求分乘計程車。首里城園區有坡道，長輩可縮短步行距離，並先約好會合位置。<br><a class="map-link" href="https://yui-rail.co.jp/en/" target="_blank" rel="noopener noreferrer">Yui Rail 官方路線 ↗</a></p>
             </div>
           </details>
         </div>
@@ -581,7 +669,7 @@
 <li>歌町新都心商圈・自由購物與休閒：<a href="https://commons.wikimedia.org/wiki/File:San-A_Naha_Main_Place_20250505161500.jpg" target="_blank" rel="noopener noreferrer">TurnOnTheNight</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
 <li>榮町市場：使用者提供</li>
 <li>美麗海水族館礁區：<a href="https://commons.wikimedia.org/wiki/File:Corals_in_Okinawa_Churaumi_Aquarium_4.jpg" target="_blank" rel="noopener noreferrer">そらみみ</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-<li>Day 4 北谷美國村街景：使用者提供</li></ul><p>飯店、榮町市場燈籠巷景、北谷美國村日夜街景及瀨長島飛機降落照由使用者提供。其餘照片來自 Wikimedia Commons、Flickr、Pexels 或 Unsplash，保留個別作者、來源與授權。授權照片經縮放、WebP 壓縮及顯示裁切，CC BY-SA 影像衍生檔沿用原授權；未使用生成式景點照片。Noto Sans TC 依 SIL Open Font License 1.1 使用。</p></details>
+<li>Day 3 北谷美國村街景：使用者提供</li></ul><p>飯店、榮町市場燈籠巷景、北谷美國村日夜街景及瀨長島飛機降落照由使用者提供。其餘照片來自 Wikimedia Commons、Flickr、Pexels 或 Unsplash，保留個別作者、來源與授權。授權照片經縮放、WebP 壓縮及顯示裁切，CC BY-SA 影像衍生檔沿用原授權；未使用生成式景點照片。Noto Sans TC 依 SIL Open Font License 1.1 使用。</p></details>
       <p class="footer-colophon">本頁為私人親友行程的獨立製作，與加利利旅遊無隸屬或合作關係。參考航班與尚待確認事項，以旅客訂位及行前確認資料為準。</p>
     </div>
   </footer>

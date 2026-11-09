@@ -7,27 +7,27 @@
   unicode-range: U+2013,U+305D,U+307F,U+3089,U+4EC1,U+52D9,U+59FF,U+5B50,U+5BDF,U+5D16,U+6069,U+65B7,U+68AD,U+6B62,U+6B78,U+71B1,U+7686,U+7D0D,U+80B2,U+9694,U+9760,U+99DB;
 }
 
-#day4 {
+#day3 {
   margin-top: 48px;
   font-family: "Noto Sans TC Day 4","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif;
 }
-#day4 .day-route { word-break: keep-all; }
-#day4 .daily-scene > .photo-frame { aspect-ratio: 3/2; }
-#day4 .day4-kouri > .photo-frame { aspect-ratio: 2.22; }
-#day4 .day4-kouri img { object-position: 50% 58%; }
-#day4 .day4-aquarium .photo-pair { grid-template-columns: 2.5fr 1fr; aspect-ratio: 2.25; }
-#day4 .p-churaumi img { object-position: 30% 20%; }
+#day3 .day-route { word-break: keep-all; }
+#day3 .daily-scene > .photo-frame { aspect-ratio: 3/2; }
+#day3 .day4-kouri > .photo-frame { aspect-ratio: 2.22; }
+#day3 .day4-kouri img { object-position: 50% 58%; }
+#day3 .day4-aquarium .photo-pair { grid-template-columns: 2.5fr 1fr; aspect-ratio: 2.25; }
+#day3 .p-churaumi img { object-position: 30% 20%; }
 
 @media (min-width: 768px) {
-  #day4 .scene-strip { grid-template-columns: repeat(5, minmax(0,1fr)); gap: 38px 34px; }
-  #day4 .daily-scene { grid-column: span 2; }
-  #day4 :is(.day4-kouri,.day4-aquarium) { grid-column: span 3; }
+  #day3 .scene-strip { grid-template-columns: repeat(5, minmax(0,1fr)); gap: 38px 34px; }
+  #day3 .daily-scene { grid-column: span 2; }
+  #day3 :is(.day4-kouri,.day4-aquarium) { grid-column: span 3; }
 }
 
 @media (max-width: 767px) {
   .day-navigation:has(a[href="#day4"]) { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 10px; }
   .day-navigation:has(a[href="#day4"]) a > span { display: block; margin-left: 0; }
-  #day4 .day4-kouri > .photo-frame { aspect-ratio: 1.7; }
-  #day4 .day4-aquarium .photo-pair { aspect-ratio: 1.83; }
-  #day4 .p-churaumi img { object-position: 20% 20%; }
+  #day3 .day4-kouri > .photo-frame { aspect-ratio: 1.7; }
+  #day3 .day4-aquarium .photo-pair { aspect-ratio: 1.83; }
+  #day3 .p-churaumi img { object-position: 20% 20%; }
 }
