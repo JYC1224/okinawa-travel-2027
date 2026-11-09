@@ -78,7 +78,6 @@
 @media (max-height: 540px) and (min-width: 768px) {
   .hero.hero-cinema { min-height: 390px; }
 }
-@media (prefers-reduced-motion: reduce) { .hero-film { transition: none; } }
 @media print {
   .hero.hero-cinema { height: 220px; min-height: 0; }
   .hero-film, .hero-playback, .hero-scroll, .hero-sources { display: none !important; }

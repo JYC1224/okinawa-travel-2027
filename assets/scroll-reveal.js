@@ -1,10 +1,7 @@
 (() => {
   'use strict';
 
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  // An explicit preview link lets the reader compare the effect in a reduced-motion browser.
-  const preview = new URLSearchParams(window.location.search).get('motion') === 'preview';
-  if ((!preview && reducedMotion.matches) || !('IntersectionObserver' in window)) return;
+  if (!('IntersectionObserver' in window)) return;
 
   const pending = 'scroll-reveal-pending';
   const entering = 'scroll-reveal-enter';
@@ -27,7 +24,6 @@
   }
 
   const observer = new IntersectionObserver(entries => {
-    if (!preview && reducedMotion.matches) return;
     for (const {target, isIntersecting} of entries) {
       if (!isIntersecting) {
         resetIfOutside(target);
@@ -47,14 +43,10 @@
     section.addEventListener('animationend', event => {
       if (event.target === section && event.animationName === 'scroll-reveal') {
         section.classList.remove(entering);
-        if (preview || !reducedMotion.matches) resetIfOutside(section);
+        resetIfOutside(section);
       }
     });
     observer.observe(section);
   }
 
-  reducedMotion.addEventListener('change', event => {
-    if (preview || !event.matches) return;
-    for (const section of sections) section.classList.remove(pending, entering);
-  });
 })();

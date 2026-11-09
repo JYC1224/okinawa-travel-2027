@@ -1,10 +1,6 @@
 (() => {
   'use strict';
 
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const preview = new URLSearchParams(window.location.search).get('motion') === 'preview';
-  if (reducedMotion.matches && !preview) return;
-
   const root = document.documentElement;
   let screen = null;
   let finished = false;
@@ -17,17 +13,12 @@
     (screen || document.getElementById('opening-screen'))?.remove();
     document.removeEventListener('DOMContentLoaded', start);
     document.removeEventListener('keydown', handleKey);
-    reducedMotion.removeEventListener('change', handleMotion);
     window.removeEventListener('pagehide', finish);
     window.removeEventListener('beforeprint', finish);
   }
 
   function handleKey(event) {
     if (event.key === 'Escape' || event.key === 'Tab') finish();
-  }
-
-  function handleMotion(event) {
-    if (event.matches && !preview) finish();
   }
 
   function start() {
@@ -52,7 +43,6 @@
   const safetyTimer = setTimeout(finish, 10000);
   root.classList.add('opening-active');
   document.addEventListener('keydown', handleKey);
-  reducedMotion.addEventListener('change', handleMotion);
   window.addEventListener('pagehide', finish, { once: true });
   window.addEventListener('beforeprint', finish, { once: true });
   if (document.readyState === 'loading') {

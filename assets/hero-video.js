@@ -6,12 +6,8 @@
   if (!hero || !video) return;
 
   const label = button?.querySelector('[data-hero-label]');
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const preview = new URLSearchParams(window.location.search).get('motion') === 'preview';
-  const connection = navigator.connection;
   let inView = hero.getBoundingClientRect().bottom > 0 && hero.getBoundingClientRect().top < innerHeight;
   let userPaused = false;
-  let explicitPlay = false;
 
   function updateButton() {
     const playing = !video.paused && !video.ended;
@@ -27,8 +23,7 @@
 
   function syncPlayback() {
     const opening = document.documentElement.classList.contains('opening-active');
-    const preferStill = !preview && (reducedMotion.matches || connection?.saveData);
-    if (opening || !inView || document.hidden || userPaused || (preferStill && !explicitPlay)) {
+    if (opening || !inView || document.hidden || userPaused) {
       video.pause();
       return;
     }
@@ -44,7 +39,6 @@
       video.pause();
     } else {
       userPaused = false;
-      explicitPlay = true;
       syncPlayback();
     }
   });
@@ -58,11 +52,6 @@
     updateButton();
   });
   document.addEventListener('visibilitychange', syncPlayback);
-  reducedMotion.addEventListener('change', () => {
-    explicitPlay = false;
-    syncPlayback();
-  });
-  connection?.addEventListener('change', syncPlayback);
 
   // Observe the existing intro rather than changing its timing or script.
   const introObserver = new MutationObserver(() => {
@@ -81,7 +70,7 @@
     }, { threshold: [0, .1] }).observe(hero);
   }
   // Buffer during the existing logo intro, without playing behind it.
-  if (inView && (preview || (!reducedMotion.matches && !connection?.saveData))) {
+  if (inView) {
     ensureSource();
     video.preload = 'auto';
     video.load();

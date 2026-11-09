@@ -1,8 +1,6 @@
 (() => {
   const video = document.querySelector('#highlights-clip');
   const button = document.querySelector('button[aria-controls="highlights-clip"]');
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const preview = new URLSearchParams(window.location.search).get('motion') === 'preview';
   let inView = false;
   let userPaused = false;
 
@@ -13,7 +11,7 @@
   }
 
   function syncPlayback() {
-    if (!inView || (reducedMotion.matches && !preview)) video.pause();
+    if (!inView) video.pause();
     else if (!userPaused) play();
   }
 
@@ -33,6 +31,5 @@
       syncPlayback();
     }, { threshold: 0.25 });
     observer.observe(video);
-    reducedMotion.addEventListener('change', syncPlayback);
   }
 })();
