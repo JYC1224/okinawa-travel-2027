@@ -2,6 +2,19 @@
   'use strict';
 
   const root = document.documentElement;
+  const isReload = performance.getEntriesByType('navigation')[0]?.type === 'reload';
+
+  function resetReloadPosition() {
+    if (isReload) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }
+
+  // A refresh restarts the opening at the hero, including refreshes of #day links.
+  // Fresh visits to a shared section link still keep their requested destination.
+  if (isReload) {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    if (location.hash) history.replaceState(history.state, '', location.pathname + location.search);
+    resetReloadPosition();
+  }
   let screen = null;
   let finished = false;
   let travelTimer;
@@ -24,6 +37,7 @@
     }
     root.classList.remove('logo-travelling');
     root.classList.remove('opening-active');
+    resetReloadPosition();
     (screen || document.getElementById('opening-screen'))?.remove();
     document.removeEventListener('DOMContentLoaded', start);
     document.removeEventListener('keydown', handleKey);
@@ -42,6 +56,7 @@
       finish();
       return;
     }
+    resetReloadPosition();
     screen.hidden = false;
     if (getComputedStyle(screen).animationName !== 'opening-curtain') {
       finish();
