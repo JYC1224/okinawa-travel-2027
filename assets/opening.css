@@ -34,6 +34,8 @@
   width: min(612px, calc(100% - 64px));
   aspect-ratio: 612 / 367;
   pointer-events: none;
+  will-change: transform, opacity;
+  transform: translateZ(0);
   animation: opening-island-reveal 7600ms ease-in-out both;
 }
 .opening-island img {
@@ -109,8 +111,7 @@
 @keyframes opening-island-reveal {
   /* Keep the original fade durations; extend only the full-opacity hold by 1s. */
   0%, 46.894737% { opacity: 0; }
-  56.447368%, 83.5% { opacity: 1; }
-  92.184211%, 100% { opacity: 0; }
+  56.447368%, 100% { opacity: 1; }
 }
 @keyframes opening-curtain {
   0%, 92.184211% { opacity: 1; }
@@ -125,3 +126,14 @@
   :root.opening-active { overflow: visible; }
   .opening-screen { display: none !important; }
 }
+
+/* The same island artwork settles into the masthead after the opening. */
+.header-logo { display: block; position: relative; width: 250px; height: 60px; overflow: hidden; flex: none; }
+.header-island { position: absolute; width: 250px; aspect-ratio: 612 / 367; left: 0; top: -46px; pointer-events: none; }
+.header-island img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; }
+@media (max-width: 767px) { .header-logo { width: 190px; height: 46px; } .header-island { width: 190px; top: -35px; } }
+
+/* Center independently of the date and the mobile menu button. */
+.header-logo { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.header-date, .menu-toggle { margin-left: auto; }
+:root.logo-travelling .header-island { visibility: hidden; }
